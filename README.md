@@ -33,7 +33,7 @@ Before you start, you need an SD card that is at least 16GB in size.
     and get the ip address of Pi.
 
 6. **Access Your Raspberry Pi**:
-   The default username is `ubuntu` and the password is `6496`. The default hostname is raspberrypi`. You can login either directly on the Raspberry Pi or via SSH (enabled by default). Try:
+   The default username is `ubuntu` and the password is `6496`. The default hostname is `raspberrypi`. You can login either directly on the Raspberry Pi or via SSH (enabled by default). Try:
    ```bash
    ssh ubuntu@raspberrypi.local
    ```
