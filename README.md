@@ -61,7 +61,7 @@ Before you start, you need an SD card that is at least 16GB in size.
 Contributions are welcome! If you have any suggestions or improvements, feel free to open an issue or submit a pull request.
 
 ## License
-This repository is licensed under the Apache 2.0 License. See the LICENSE file for more details.
+This repository is licensed under the Apache 2.0 License. See the [LICENSE](https://github.com/sagar16812/Getting-Started-with-ROS2-A-Tutorial-Series/blob/main/LICENSE) file for more details.
 
 ## Contact
 For any questions or feedback, feel free to reach out or comment on the Medium articles.
