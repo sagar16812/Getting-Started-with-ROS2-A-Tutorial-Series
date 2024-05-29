@@ -8,7 +8,7 @@ Welcome to the official repository for the **[Getting Started with ROS2](https:/
 
 ## Raspberry Pi Image with Ubuntu Server 22.04 and ROS2 Humble Base + Perception
 
-We have created a Raspberry Pi image with **Ubuntu Server 22.04 for arm64 and ROS2 base + perception** pre-installed to help you get started quickly. This image can be downloaded directly from this [link](), flashed to a SD card, and booted on a Raspberry Pi 3 or above model.
+We have created a Raspberry Pi image with **Ubuntu Server 22.04 for arm64 and ROS2 base + perception** pre-installed to help you get started quickly. This image can be downloaded directly from this [link](https://drive.google.com/file/d/1yvv7u4Z7PgbNEOfC1JUykrVPpexAQosP/view?usp=sharing), flash it to a SD card, and boot on a Raspberry Pi 3 or above model.
 
 ### How to Use the Image
 Before you start, you need an SD card that is at least 16GB in size.
