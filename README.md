@@ -5,6 +5,17 @@ Welcome to the official repository for the **[Getting Started with ROS2](https:/
 ## Repository Structure
 
 - **installation_guide/**: Instructions on how to install ROS2 on your Desktop/Laptop or a Raspberry Pi and set up your environment.
+- **workspace/**: A sample ROS2 workspace with basic package structures.
+- **packages/**:
+  - **publisher_package/**: Simple publisher nodes to demonstrate how to publish messages.
+  - **subscriber_package/**: Simple subscriber nodes to demonstrate how to subscribe to messages.
+  - **service_client_package/**: Examples of creating services and clients.
+  - **action_server_client_package/**: Examples of creating action servers and clients.
+- **launch_files/**: Example launch files to run multiple nodes.
+- **custom_messages/**: Examples of creating custom message and service types.
+- **parameter_server/**: Demonstrations on how to use the parameter server.
+- **visualization_tools/**: Examples using `rviz` and `rqt`.
+- **advanced_examples/**: More complex projects like integrating sensors or simulating a robot in Gazebo.
 
 ## Raspberry Pi Image with Ubuntu Server 22.04 and ROS2 Humble Base + Perception
 
