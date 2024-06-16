@@ -96,3 +96,74 @@ This guide provides a step-by-step process for installing ROS2 Humble on a Raspb
      ```
 
 For further details, you can follow the [official ROS2 installation guide for Raspberry Pi](https://docs.ros.org/en/humble/How-To-Guides/Installing-on-Raspberry-Pi.html).
+
+## Additional Steps: Setting Up Raspberry Pi for GPIO and Camera Access
+
+This guide will help you install the necessary libraries and tools to use GPIO and the camera on a Raspberry Pi without a GUI.
+
+### Step 1: Update and Upgrade
+
+Ensure your system is up to date:
+
+```bash
+sudo apt update
+sudo apt upgrade
+```
+
+### Step 2: Install `RPi.GPIO`
+
+`RPi.GPIO` is a Python library to control the GPIO pins on the Raspberry Pi:
+
+```bash
+sudo apt install python3-rpi.gpio
+```
+
+### Step 3: Install `raspi-config`
+
+`raspi-config` is a configuration tool to enable various interfaces on the Raspberry Pi:
+
+```bash
+sudo apt install raspi-config
+sudo raspi-config
+```
+
+Navigate to **Interfacing Options** and enable the necessary interfaces (I2C, SPI, Camera, etc.). Reboot if prompted.
+
+### Step 4: Install `Gpiozero`
+
+`Gpiozero` is a high-level Python library for controlling GPIO on the Raspberry Pi:
+
+```bash
+sudo apt install python3-gpiozero
+```
+
+### Step 5: Install `pip`
+
+`pip` is the package installer for Python, which you'll need to install additional Python packages:
+
+```bash
+sudo apt install python3-pip
+```
+
+### Step 6: Install `picamera`
+
+`picamera` is a Python library to control the Raspberry Pi camera:
+
+```bash
+pip3 install picamera
+```
+
+**Note:** To use `picamera`, you need to enable legacy camera support:
+
+1. Run `raspi-config`:
+    ```bash
+    sudo raspi-config
+    ```
+
+2. Navigate to **Interfacing Options** > **Legacy Camera** and enable it.
+3. Reboot your Raspberry Pi:
+    ```bash
+    sudo reboot
+    ```
+
+With these installations, your Raspberry Pi is now set up to use GPIO and the camera without a GUI. You can control GPIO pins using `RPi.GPIO` or `Gpiozero` and access the camera using the `picamera` library.
