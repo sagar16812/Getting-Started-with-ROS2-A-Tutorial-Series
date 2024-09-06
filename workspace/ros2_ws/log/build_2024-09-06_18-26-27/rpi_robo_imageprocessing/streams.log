@@ -1,0 +1,25 @@
+[2.557s] Invoking command in '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/src/rpi_robo_imageprocessing': PYTHONPATH=/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/rpi_robo_imageprocessing/prefix_override:/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/rpi_robo_imageprocessing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/rpi_robo_imageprocessing build --build-base /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/rpi_robo_imageprocessing/build install --record /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/rpi_robo_imageprocessing/install.log --single-version-externally-managed install_data
+[3.438s] running egg_info
+[3.440s] writing ../../build/rpi_robo_imageprocessing/rpi_robo_imageprocessing.egg-info/PKG-INFO
+[3.441s] writing dependency_links to ../../build/rpi_robo_imageprocessing/rpi_robo_imageprocessing.egg-info/dependency_links.txt
+[3.441s] writing entry points to ../../build/rpi_robo_imageprocessing/rpi_robo_imageprocessing.egg-info/entry_points.txt
+[3.442s] writing requirements to ../../build/rpi_robo_imageprocessing/rpi_robo_imageprocessing.egg-info/requires.txt
+[3.442s] writing top-level names to ../../build/rpi_robo_imageprocessing/rpi_robo_imageprocessing.egg-info/top_level.txt
+[3.460s] reading manifest file '../../build/rpi_robo_imageprocessing/rpi_robo_imageprocessing.egg-info/SOURCES.txt'
+[3.464s] writing manifest file '../../build/rpi_robo_imageprocessing/rpi_robo_imageprocessing.egg-info/SOURCES.txt'
+[3.464s] running build
+[3.465s] running build_py
+[3.466s] copying rpi_robo_imageprocessing/person_detector.py -> /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/rpi_robo_imageprocessing/build/lib/rpi_robo_imageprocessing
+[3.467s] running install
+[3.468s] running install_lib
+[3.471s] copying /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/rpi_robo_imageprocessing/build/lib/rpi_robo_imageprocessing/person_detector.py -> /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/rpi_robo_imageprocessing/lib/python3.10/site-packages/rpi_robo_imageprocessing
+[3.473s] byte-compiling /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/rpi_robo_imageprocessing/lib/python3.10/site-packages/rpi_robo_imageprocessing/person_detector.py to person_detector.cpython-310.pyc
+[3.475s] running install_data
+[3.476s] running install_egg_info
+[3.481s] removing '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/rpi_robo_imageprocessing/lib/python3.10/site-packages/rpi_robo_imageprocessing-0.0.0-py3.10.egg-info' (and everything under it)
+[3.482s] Copying ../../build/rpi_robo_imageprocessing/rpi_robo_imageprocessing.egg-info to /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/rpi_robo_imageprocessing/lib/python3.10/site-packages/rpi_robo_imageprocessing-0.0.0-py3.10.egg-info
+[3.485s] running install_scripts
+[3.549s] Installing person_detector script to /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/rpi_robo_imageprocessing/lib/rpi_robo_imageprocessing
+[3.550s] Installing preview script to /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/rpi_robo_imageprocessing/lib/rpi_robo_imageprocessing
+[3.551s] writing list of installed files to '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/rpi_robo_imageprocessing/install.log'
+[3.640s] Invoked command in '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/src/rpi_robo_imageprocessing' returned '0': PYTHONPATH=/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/rpi_robo_imageprocessing/prefix_override:/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/rpi_robo_imageprocessing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/rpi_robo_imageprocessing build --build-base /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/rpi_robo_imageprocessing/build install --record /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/rpi_robo_imageprocessing/install.log --single-version-externally-managed install_data
