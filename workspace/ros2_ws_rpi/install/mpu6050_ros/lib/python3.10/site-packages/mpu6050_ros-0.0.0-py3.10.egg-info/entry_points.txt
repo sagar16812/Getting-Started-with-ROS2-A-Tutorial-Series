@@ -1,0 +1,3 @@
+[console_scripts]
+mpu6050_node = mpu6050_ros.mpu6050_node:main
+
