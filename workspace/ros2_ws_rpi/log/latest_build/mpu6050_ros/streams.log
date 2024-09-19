@@ -1,27 +1,24 @@
-[12.037s] Invoking command in '/home/ubuntu/ros2_ws_rpi/src/mpu6050_ros': PYTHONPATH=/home/ubuntu/ros2_ws_rpi/build/mpu6050_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws_rpi/install/mpu6050_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mpu6050_ros build --build-base /home/ubuntu/ros2_ws_rpi/build/mpu6050_ros/build install --record /home/ubuntu/ros2_ws_rpi/build/mpu6050_ros/install.log --single-version-externally-managed install_data
-[14.399s] running egg_info
-[14.404s] writing ../../build/mpu6050_ros/mpu6050_ros.egg-info/PKG-INFO
-[14.406s] writing dependency_links to ../../build/mpu6050_ros/mpu6050_ros.egg-info/dependency_links.txt
-[14.408s] writing entry points to ../../build/mpu6050_ros/mpu6050_ros.egg-info/entry_points.txt
-[14.409s] writing requirements to ../../build/mpu6050_ros/mpu6050_ros.egg-info/requires.txt
-[14.410s] writing top-level names to ../../build/mpu6050_ros/mpu6050_ros.egg-info/top_level.txt
-[14.426s] reading manifest file '../../build/mpu6050_ros/mpu6050_ros.egg-info/SOURCES.txt'
-[14.433s] writing manifest file '../../build/mpu6050_ros/mpu6050_ros.egg-info/SOURCES.txt'
-[14.435s] running build
-[14.436s] running build_py
-[14.437s] copying mpu6050_ros/old_mpu6050_node.py -> /home/ubuntu/ros2_ws_rpi/build/mpu6050_ros/build/lib/mpu6050_ros
-[14.438s] copying mpu6050_ros/mpu6050_node.py -> /home/ubuntu/ros2_ws_rpi/build/mpu6050_ros/build/lib/mpu6050_ros
-[14.441s] running install
-[14.443s] running install_lib
-[14.449s] copying /home/ubuntu/ros2_ws_rpi/build/mpu6050_ros/build/lib/mpu6050_ros/old_mpu6050_node.py -> /home/ubuntu/ros2_ws_rpi/install/mpu6050_ros/lib/python3.10/site-packages/mpu6050_ros
-[14.451s] copying /home/ubuntu/ros2_ws_rpi/build/mpu6050_ros/build/lib/mpu6050_ros/mpu6050_node.py -> /home/ubuntu/ros2_ws_rpi/install/mpu6050_ros/lib/python3.10/site-packages/mpu6050_ros
-[14.456s] byte-compiling /home/ubuntu/ros2_ws_rpi/install/mpu6050_ros/lib/python3.10/site-packages/mpu6050_ros/old_mpu6050_node.py to old_mpu6050_node.cpython-310.pyc
-[14.461s] byte-compiling /home/ubuntu/ros2_ws_rpi/install/mpu6050_ros/lib/python3.10/site-packages/mpu6050_ros/mpu6050_node.py to mpu6050_node.cpython-310.pyc
-[14.467s] running install_data
-[14.468s] running install_egg_info
-[14.480s] removing '/home/ubuntu/ros2_ws_rpi/install/mpu6050_ros/lib/python3.10/site-packages/mpu6050_ros-0.0.0-py3.10.egg-info' (and everything under it)
-[14.484s] Copying ../../build/mpu6050_ros/mpu6050_ros.egg-info to /home/ubuntu/ros2_ws_rpi/install/mpu6050_ros/lib/python3.10/site-packages/mpu6050_ros-0.0.0-py3.10.egg-info
-[14.494s] running install_scripts
-[14.650s] Installing mpu6050_node script to /home/ubuntu/ros2_ws_rpi/install/mpu6050_ros/lib/mpu6050_ros
-[14.654s] writing list of installed files to '/home/ubuntu/ros2_ws_rpi/build/mpu6050_ros/install.log'
-[14.871s] Invoked command in '/home/ubuntu/ros2_ws_rpi/src/mpu6050_ros' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws_rpi/build/mpu6050_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws_rpi/install/mpu6050_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mpu6050_ros build --build-base /home/ubuntu/ros2_ws_rpi/build/mpu6050_ros/build install --record /home/ubuntu/ros2_ws_rpi/build/mpu6050_ros/install.log --single-version-externally-managed install_data
+[13.875s] Invoking command in '/home/ubuntu/ros2_ws_rpi/src/mpu6050_ros': PYTHONPATH=/home/ubuntu/ros2_ws_rpi/build/mpu6050_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws_rpi/install/mpu6050_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mpu6050_ros build --build-base /home/ubuntu/ros2_ws_rpi/build/mpu6050_ros/build install --record /home/ubuntu/ros2_ws_rpi/build/mpu6050_ros/install.log --single-version-externally-managed install_data
+[18.937s] running egg_info
+[18.948s] writing ../../build/mpu6050_ros/mpu6050_ros.egg-info/PKG-INFO
+[18.952s] writing dependency_links to ../../build/mpu6050_ros/mpu6050_ros.egg-info/dependency_links.txt
+[18.955s] writing entry points to ../../build/mpu6050_ros/mpu6050_ros.egg-info/entry_points.txt
+[18.959s] writing requirements to ../../build/mpu6050_ros/mpu6050_ros.egg-info/requires.txt
+[18.961s] writing top-level names to ../../build/mpu6050_ros/mpu6050_ros.egg-info/top_level.txt
+[18.992s] reading manifest file '../../build/mpu6050_ros/mpu6050_ros.egg-info/SOURCES.txt'
+[19.009s] writing manifest file '../../build/mpu6050_ros/mpu6050_ros.egg-info/SOURCES.txt'
+[19.012s] running build
+[19.014s] running build_py
+[19.019s] copying mpu6050_ros/mpu6050_node.py -> /home/ubuntu/ros2_ws_rpi/build/mpu6050_ros/build/lib/mpu6050_ros
+[19.024s] running install
+[19.029s] running install_lib
+[19.045s] copying /home/ubuntu/ros2_ws_rpi/build/mpu6050_ros/build/lib/mpu6050_ros/mpu6050_node.py -> /home/ubuntu/ros2_ws_rpi/install/mpu6050_ros/lib/python3.10/site-packages/mpu6050_ros
+[19.056s] byte-compiling /home/ubuntu/ros2_ws_rpi/install/mpu6050_ros/lib/python3.10/site-packages/mpu6050_ros/mpu6050_node.py to mpu6050_node.cpython-310.pyc
+[19.073s] running install_data
+[19.076s] running install_egg_info
+[19.101s] removing '/home/ubuntu/ros2_ws_rpi/install/mpu6050_ros/lib/python3.10/site-packages/mpu6050_ros-0.0.0-py3.10.egg-info' (and everything under it)
+[19.108s] Copying ../../build/mpu6050_ros/mpu6050_ros.egg-info to /home/ubuntu/ros2_ws_rpi/install/mpu6050_ros/lib/python3.10/site-packages/mpu6050_ros-0.0.0-py3.10.egg-info
+[19.130s] running install_scripts
+[19.471s] Installing mpu6050_node script to /home/ubuntu/ros2_ws_rpi/install/mpu6050_ros/lib/mpu6050_ros
+[19.478s] writing list of installed files to '/home/ubuntu/ros2_ws_rpi/build/mpu6050_ros/install.log'
+[19.869s] Invoked command in '/home/ubuntu/ros2_ws_rpi/src/mpu6050_ros' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws_rpi/build/mpu6050_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws_rpi/install/mpu6050_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mpu6050_ros build --build-base /home/ubuntu/ros2_ws_rpi/build/mpu6050_ros/build install --record /home/ubuntu/ros2_ws_rpi/build/mpu6050_ros/install.log --single-version-externally-managed install_data

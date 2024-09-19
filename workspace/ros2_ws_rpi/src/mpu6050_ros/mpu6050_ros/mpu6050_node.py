@@ -1,6 +1,7 @@
 import rclpy
 from rclpy.node import Node
 from sensor_msgs.msg import Imu
+from std_msgs.msg import Float32
 import smbus2
 import time
 import math
@@ -10,6 +11,7 @@ MPU6050_ADDR = 0x68
 PWR_MGMT_1 = 0x6B
 ACCEL_XOUT_H = 0x3B
 GYRO_XOUT_H = 0x43
+TEMP_OUT_H = 0x41  # Temperature data register
 
 class MPU6050Node(Node):
     def __init__(self):
@@ -25,6 +27,8 @@ class MPU6050Node(Node):
 
         # Publisher to the /imu topic
         self.publisher_ = self.create_publisher(Imu, 'imu', 10)
+        # Publisher to the /temperature topic
+        self.temp_publisher_ = self.create_publisher(Float32, 'temperature', 10)
 
         # Timer to read and publish data every 0.1 seconds
         self.timer = self.create_timer(0.1, self.read_and_publish_imu_data)
@@ -50,7 +54,15 @@ class MPU6050Node(Node):
         gyro_z = self.read_word_2c(GYRO_XOUT_H + 4)
         return gyro_x, gyro_y, gyro_z
 
+    def get_temperature_data(self):
+        # Read raw temperature data
+        raw_temp = self.read_word_2c(TEMP_OUT_H)
+        # Convert raw temperature to Celsius based on the MPU6050 datasheet formula
+        temp_celsius = (raw_temp / 340.0) + 36.53
+        return temp_celsius
+
     def read_and_publish_imu_data(self):
+        # Get accelerometer and gyroscope data
         accel_x, accel_y, accel_z = self.get_accel_data()
         gyro_x, gyro_y, gyro_z = self.get_gyro_data()
 
@@ -81,8 +93,19 @@ class MPU6050Node(Node):
         imu_msg.angular_velocity.y = gyro_y
         imu_msg.angular_velocity.z = gyro_z
 
-        # Publish the message
+        # Publish the IMU message
         self.publisher_.publish(imu_msg)
+
+        # Get temperature data
+        temperature = self.get_temperature_data()
+
+        # Publish temperature data
+        temp_msg = Float32()
+        temp_msg.data = temperature
+        self.temp_publisher_.publish(temp_msg)
+
+        # Log the temperature
+        self.get_logger().info(f'Temperature: {temperature:.2f} C')
 
 def main(args=None):
     rclpy.init(args=args)
@@ -92,10 +115,14 @@ def main(args=None):
     try:
         rclpy.spin(mpu6050_node)
     except KeyboardInterrupt:
-        pass
+        # Handle Ctrl+C
+        mpu6050_node.get_logger().info("Shutting down node due to keyboard interrupt.")
     finally:
-        mpu6050_node.destroy_node()
-        rclpy.shutdown()
+        if rclpy.ok():
+            # Safely shutdown
+            mpu6050_node.destroy_node()
+            rclpy.shutdown()
 
 if __name__ == '__main__':
     main()
+

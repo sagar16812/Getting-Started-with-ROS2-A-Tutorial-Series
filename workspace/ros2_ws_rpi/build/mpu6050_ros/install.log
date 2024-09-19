@@ -1,8 +1,10 @@
 /home/ubuntu/ros2_ws_rpi/install/mpu6050_ros/lib/python3.10/site-packages/mpu6050_ros/__init__.py
 /home/ubuntu/ros2_ws_rpi/install/mpu6050_ros/lib/python3.10/site-packages/mpu6050_ros/old_mpu6050_node.py
+/home/ubuntu/ros2_ws_rpi/install/mpu6050_ros/lib/python3.10/site-packages/mpu6050_ros/mpu6050_node_old_without_temp.py
 /home/ubuntu/ros2_ws_rpi/install/mpu6050_ros/lib/python3.10/site-packages/mpu6050_ros/mpu6050_node.py
 /home/ubuntu/ros2_ws_rpi/install/mpu6050_ros/lib/python3.10/site-packages/mpu6050_ros/__pycache__/__init__.cpython-310.pyc
 /home/ubuntu/ros2_ws_rpi/install/mpu6050_ros/lib/python3.10/site-packages/mpu6050_ros/__pycache__/old_mpu6050_node.cpython-310.pyc
+/home/ubuntu/ros2_ws_rpi/install/mpu6050_ros/lib/python3.10/site-packages/mpu6050_ros/__pycache__/mpu6050_node_old_without_temp.cpython-310.pyc
 /home/ubuntu/ros2_ws_rpi/install/mpu6050_ros/lib/python3.10/site-packages/mpu6050_ros/__pycache__/mpu6050_node.cpython-310.pyc
 /home/ubuntu/ros2_ws_rpi/install/mpu6050_ros/share/ament_index/resource_index/packages/mpu6050_ros
 /home/ubuntu/ros2_ws_rpi/install/mpu6050_ros/share/mpu6050_ros/package.xml

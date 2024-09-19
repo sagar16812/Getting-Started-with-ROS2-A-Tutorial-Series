@@ -10,6 +10,7 @@ setup.py
 ../../build/mpu6050_ros/mpu6050_ros.egg-info/zip-safe
 mpu6050_ros/__init__.py
 mpu6050_ros/mpu6050_node.py
+mpu6050_ros/mpu6050_node_old_without_temp.py
 mpu6050_ros/old_mpu6050_node.py
 resource/mpu6050_ros
 test/test_copyright.py

@@ -1,0 +1,252 @@
+[0.000000] (-) TimerEvent: {}
+[0.005070] (mpu6050_ros) JobQueued: {'identifier': 'mpu6050_ros', 'dependencies': OrderedDict()}
+[0.005980] (mpu6050_ros) JobStarted: {'identifier': 'mpu6050_ros'}
+[0.092916] (-) TimerEvent: {}
+[0.194597] (-) TimerEvent: {}
+[0.299971] (-) TimerEvent: {}
+[0.401826] (-) TimerEvent: {}
+[0.503586] (-) TimerEvent: {}
+[0.605447] (-) TimerEvent: {}
+[0.707158] (-) TimerEvent: {}
+[0.808987] (-) TimerEvent: {}
+[0.910777] (-) TimerEvent: {}
+[1.012741] (-) TimerEvent: {}
+[1.114527] (-) TimerEvent: {}
+[1.216561] (-) TimerEvent: {}
+[1.318398] (-) TimerEvent: {}
+[1.420358] (-) TimerEvent: {}
+[1.522310] (-) TimerEvent: {}
+[1.624117] (-) TimerEvent: {}
+[1.725987] (-) TimerEvent: {}
+[1.827772] (-) TimerEvent: {}
+[1.929600] (-) TimerEvent: {}
+[2.031384] (-) TimerEvent: {}
+[2.133271] (-) TimerEvent: {}
+[2.235103] (-) TimerEvent: {}
+[2.336971] (-) TimerEvent: {}
+[2.438803] (-) TimerEvent: {}
+[2.540601] (-) TimerEvent: {}
+[2.642394] (-) TimerEvent: {}
+[2.744161] (-) TimerEvent: {}
+[2.846045] (-) TimerEvent: {}
+[2.947832] (-) TimerEvent: {}
+[3.049753] (-) TimerEvent: {}
+[3.151568] (-) TimerEvent: {}
+[3.253416] (-) TimerEvent: {}
+[3.355119] (-) TimerEvent: {}
+[3.456915] (-) TimerEvent: {}
+[3.558707] (-) TimerEvent: {}
+[3.660622] (-) TimerEvent: {}
+[3.762374] (-) TimerEvent: {}
+[3.864172] (-) TimerEvent: {}
+[3.966036] (-) TimerEvent: {}
+[4.067875] (-) TimerEvent: {}
+[4.169729] (-) TimerEvent: {}
+[4.271756] (-) TimerEvent: {}
+[4.373691] (-) TimerEvent: {}
+[4.475532] (-) TimerEvent: {}
+[4.577401] (-) TimerEvent: {}
+[4.679255] (-) TimerEvent: {}
+[4.781141] (-) TimerEvent: {}
+[4.883039] (-) TimerEvent: {}
+[4.985001] (-) TimerEvent: {}
+[5.087304] (-) TimerEvent: {}
+[5.189152] (-) TimerEvent: {}
+[5.290899] (-) TimerEvent: {}
+[5.392657] (-) TimerEvent: {}
+[5.494518] (-) TimerEvent: {}
+[5.596603] (-) TimerEvent: {}
+[5.698547] (-) TimerEvent: {}
+[5.802171] (-) TimerEvent: {}
+[5.904941] (-) TimerEvent: {}
+[6.006887] (-) TimerEvent: {}
+[6.108811] (-) TimerEvent: {}
+[6.210583] (-) TimerEvent: {}
+[6.312551] (-) TimerEvent: {}
+[6.414323] (-) TimerEvent: {}
+[6.516092] (-) TimerEvent: {}
+[6.618067] (-) TimerEvent: {}
+[6.719819] (-) TimerEvent: {}
+[6.821780] (-) TimerEvent: {}
+[6.923536] (-) TimerEvent: {}
+[7.025499] (-) TimerEvent: {}
+[7.127272] (-) TimerEvent: {}
+[7.229102] (-) TimerEvent: {}
+[7.330886] (-) TimerEvent: {}
+[7.432878] (-) TimerEvent: {}
+[7.534737] (-) TimerEvent: {}
+[7.636684] (-) TimerEvent: {}
+[7.738424] (-) TimerEvent: {}
+[7.840282] (-) TimerEvent: {}
+[7.942203] (-) TimerEvent: {}
+[8.044033] (-) TimerEvent: {}
+[8.145912] (-) TimerEvent: {}
+[8.247718] (-) TimerEvent: {}
+[8.349607] (-) TimerEvent: {}
+[8.451431] (-) TimerEvent: {}
+[8.553360] (-) TimerEvent: {}
+[8.655217] (-) TimerEvent: {}
+[8.757096] (-) TimerEvent: {}
+[8.858853] (-) TimerEvent: {}
+[8.960739] (-) TimerEvent: {}
+[9.062446] (-) TimerEvent: {}
+[9.164263] (-) TimerEvent: {}
+[9.266116] (-) TimerEvent: {}
+[9.367928] (-) TimerEvent: {}
+[9.469776] (-) TimerEvent: {}
+[9.571629] (-) TimerEvent: {}
+[9.673524] (-) TimerEvent: {}
+[9.775436] (-) TimerEvent: {}
+[9.877803] (-) TimerEvent: {}
+[9.979710] (-) TimerEvent: {}
+[10.082135] (-) TimerEvent: {}
+[10.184117] (-) TimerEvent: {}
+[10.669394] (-) TimerEvent: {}
+[10.771156] (-) TimerEvent: {}
+[10.872971] (-) TimerEvent: {}
+[10.974852] (-) TimerEvent: {}
+[11.076795] (-) TimerEvent: {}
+[11.178639] (-) TimerEvent: {}
+[11.280569] (-) TimerEvent: {}
+[11.382310] (-) TimerEvent: {}
+[11.484243] (-) TimerEvent: {}
+[11.586262] (-) TimerEvent: {}
+[11.687969] (-) TimerEvent: {}
+[11.789933] (-) TimerEvent: {}
+[11.891862] (-) TimerEvent: {}
+[11.994002] (-) TimerEvent: {}
+[12.095932] (-) TimerEvent: {}
+[12.198103] (-) TimerEvent: {}
+[12.300159] (-) TimerEvent: {}
+[12.402418] (-) TimerEvent: {}
+[12.504186] (-) TimerEvent: {}
+[12.606017] (-) TimerEvent: {}
+[12.707836] (-) TimerEvent: {}
+[12.809762] (-) TimerEvent: {}
+[12.911592] (-) TimerEvent: {}
+[13.013529] (-) TimerEvent: {}
+[13.115373] (-) TimerEvent: {}
+[13.217208] (-) TimerEvent: {}
+[13.318957] (-) TimerEvent: {}
+[13.421226] (-) TimerEvent: {}
+[13.522961] (-) TimerEvent: {}
+[13.624733] (-) TimerEvent: {}
+[13.726644] (-) TimerEvent: {}
+[13.828753] (-) TimerEvent: {}
+[13.931020] (-) TimerEvent: {}
+[14.033649] (-) TimerEvent: {}
+[14.135589] (-) TimerEvent: {}
+[14.237657] (-) TimerEvent: {}
+[14.339421] (-) TimerEvent: {}
+[14.441280] (-) TimerEvent: {}
+[14.543056] (-) TimerEvent: {}
+[14.645084] (-) TimerEvent: {}
+[14.747219] (-) TimerEvent: {}
+[14.849415] (-) TimerEvent: {}
+[14.951386] (-) TimerEvent: {}
+[15.053354] (-) TimerEvent: {}
+[15.155381] (-) TimerEvent: {}
+[15.257542] (-) TimerEvent: {}
+[15.360116] (-) TimerEvent: {}
+[15.462769] (-) TimerEvent: {}
+[15.564785] (-) TimerEvent: {}
+[15.666854] (-) TimerEvent: {}
+[15.768851] (-) TimerEvent: {}
+[15.870942] (-) TimerEvent: {}
+[15.973420] (-) TimerEvent: {}
+[16.075518] (-) TimerEvent: {}
+[16.177584] (-) TimerEvent: {}
+[16.234848] (mpu6050_ros) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/mpu6050_ros', 'build', '--build-base', '/home/ubuntu/ros2_ws_rpi/build/mpu6050_ros/build', 'install', '--record', '/home/ubuntu/ros2_ws_rpi/build/mpu6050_ros/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ubuntu/ros2_ws_rpi/src/mpu6050_ros', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '192.168.1.73 49264 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/ubuntu/ros2_ws_rpi/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/ubuntu/.local/bin:/home/ubuntu/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ubuntu/.local/bin:/home/ubuntu/.local/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/ubuntu/ros2_ws_rpi/install/mpu6050_ros:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/ubuntu/ros2_ws_rpi/build/mpu6050_ros', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.73 49264 192.168.1.75 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/ros2_ws_rpi/build/mpu6050_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws_rpi/install/mpu6050_ros/lib/python3.10/site-packages:/home/ubuntu/ros2_ws_rpi/install/mpu6050_ros/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[16.280620] (-) TimerEvent: {}
+[16.386877] (-) TimerEvent: {}
+[16.489631] (-) TimerEvent: {}
+[16.591422] (-) TimerEvent: {}
+[16.693201] (-) TimerEvent: {}
+[16.795006] (-) TimerEvent: {}
+[16.896981] (-) TimerEvent: {}
+[16.998914] (-) TimerEvent: {}
+[17.100789] (-) TimerEvent: {}
+[17.202683] (-) TimerEvent: {}
+[17.304597] (-) TimerEvent: {}
+[17.406444] (-) TimerEvent: {}
+[17.508212] (-) TimerEvent: {}
+[17.610132] (-) TimerEvent: {}
+[17.711862] (-) TimerEvent: {}
+[17.813853] (-) TimerEvent: {}
+[17.915562] (-) TimerEvent: {}
+[18.017439] (-) TimerEvent: {}
+[18.119221] (-) TimerEvent: {}
+[18.221066] (-) TimerEvent: {}
+[18.322797] (-) TimerEvent: {}
+[18.424696] (-) TimerEvent: {}
+[18.526497] (-) TimerEvent: {}
+[18.628319] (-) TimerEvent: {}
+[18.730231] (-) TimerEvent: {}
+[18.832141] (-) TimerEvent: {}
+[18.934014] (-) TimerEvent: {}
+[19.035870] (-) TimerEvent: {}
+[19.137820] (-) TimerEvent: {}
+[19.239609] (-) TimerEvent: {}
+[19.341453] (-) TimerEvent: {}
+[19.443204] (-) TimerEvent: {}
+[19.545030] (-) TimerEvent: {}
+[19.646772] (-) TimerEvent: {}
+[19.748696] (-) TimerEvent: {}
+[19.850468] (-) TimerEvent: {}
+[19.952305] (-) TimerEvent: {}
+[20.054208] (-) TimerEvent: {}
+[20.156025] (-) TimerEvent: {}
+[20.257886] (-) TimerEvent: {}
+[20.360357] (-) TimerEvent: {}
+[20.462255] (-) TimerEvent: {}
+[20.564108] (-) TimerEvent: {}
+[20.666021] (-) TimerEvent: {}
+[20.767876] (-) TimerEvent: {}
+[20.869831] (-) TimerEvent: {}
+[20.971775] (-) TimerEvent: {}
+[21.073710] (-) TimerEvent: {}
+[21.175879] (-) TimerEvent: {}
+[21.277787] (-) TimerEvent: {}
+[21.379594] (-) TimerEvent: {}
+[21.481478] (-) TimerEvent: {}
+[21.583244] (-) TimerEvent: {}
+[21.589471] (mpu6050_ros) StdoutLine: {'line': b'running egg_info\n'}
+[21.600245] (mpu6050_ros) StdoutLine: {'line': b'writing ../../build/mpu6050_ros/mpu6050_ros.egg-info/PKG-INFO\n'}
+[21.605521] (mpu6050_ros) StdoutLine: {'line': b'writing dependency_links to ../../build/mpu6050_ros/mpu6050_ros.egg-info/dependency_links.txt\n'}
+[21.609358] (mpu6050_ros) StdoutLine: {'line': b'writing entry points to ../../build/mpu6050_ros/mpu6050_ros.egg-info/entry_points.txt\n'}
+[21.612012] (mpu6050_ros) StdoutLine: {'line': b'writing requirements to ../../build/mpu6050_ros/mpu6050_ros.egg-info/requires.txt\n'}
+[21.614915] (mpu6050_ros) StdoutLine: {'line': b'writing top-level names to ../../build/mpu6050_ros/mpu6050_ros.egg-info/top_level.txt\n'}
+[21.646435] (mpu6050_ros) StdoutLine: {'line': b"reading manifest file '../../build/mpu6050_ros/mpu6050_ros.egg-info/SOURCES.txt'\n"}
+[21.665779] (mpu6050_ros) StdoutLine: {'line': b"writing manifest file '../../build/mpu6050_ros/mpu6050_ros.egg-info/SOURCES.txt'\n"}
+[21.668121] (mpu6050_ros) StdoutLine: {'line': b'running build\n'}
+[21.670004] (mpu6050_ros) StdoutLine: {'line': b'running build_py\n'}
+[21.680868] (mpu6050_ros) StdoutLine: {'line': b'copying mpu6050_ros/mpu6050_node_old_without_temp.py -> /home/ubuntu/ros2_ws_rpi/build/mpu6050_ros/build/lib/mpu6050_ros\n'}
+[21.683513] (-) TimerEvent: {}
+[21.685540] (mpu6050_ros) StdoutLine: {'line': b'copying mpu6050_ros/mpu6050_node.py -> /home/ubuntu/ros2_ws_rpi/build/mpu6050_ros/build/lib/mpu6050_ros\n'}
+[21.689534] (mpu6050_ros) StdoutLine: {'line': b'running install\n'}
+[21.694441] (mpu6050_ros) StdoutLine: {'line': b'running install_lib\n'}
+[21.708622] (mpu6050_ros) StdoutLine: {'line': b'copying /home/ubuntu/ros2_ws_rpi/build/mpu6050_ros/build/lib/mpu6050_ros/mpu6050_node_old_without_temp.py -> /home/ubuntu/ros2_ws_rpi/install/mpu6050_ros/lib/python3.10/site-packages/mpu6050_ros\n'}
+[21.711831] (mpu6050_ros) StdoutLine: {'line': b'copying /home/ubuntu/ros2_ws_rpi/build/mpu6050_ros/build/lib/mpu6050_ros/mpu6050_node.py -> /home/ubuntu/ros2_ws_rpi/install/mpu6050_ros/lib/python3.10/site-packages/mpu6050_ros\n'}
+[21.722754] (mpu6050_ros) StdoutLine: {'line': b'byte-compiling /home/ubuntu/ros2_ws_rpi/install/mpu6050_ros/lib/python3.10/site-packages/mpu6050_ros/mpu6050_node_old_without_temp.py to mpu6050_node_old_without_temp.cpython-310.pyc\n'}
+[21.737445] (mpu6050_ros) StdoutLine: {'line': b'byte-compiling /home/ubuntu/ros2_ws_rpi/install/mpu6050_ros/lib/python3.10/site-packages/mpu6050_ros/mpu6050_node.py to mpu6050_node.cpython-310.pyc\n'}
+[21.750991] (mpu6050_ros) StdoutLine: {'line': b'running install_data\n'}
+[21.754135] (mpu6050_ros) StdoutLine: {'line': b'running install_egg_info\n'}
+[21.778784] (mpu6050_ros) StdoutLine: {'line': b"removing '/home/ubuntu/ros2_ws_rpi/install/mpu6050_ros/lib/python3.10/site-packages/mpu6050_ros-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[21.783896] (-) TimerEvent: {}
+[21.786029] (mpu6050_ros) StdoutLine: {'line': b'Copying ../../build/mpu6050_ros/mpu6050_ros.egg-info to /home/ubuntu/ros2_ws_rpi/install/mpu6050_ros/lib/python3.10/site-packages/mpu6050_ros-0.0.0-py3.10.egg-info\n'}
+[21.811836] (mpu6050_ros) StdoutLine: {'line': b'running install_scripts\n'}
+[21.884475] (-) TimerEvent: {}
+[21.986403] (-) TimerEvent: {}
+[22.088166] (-) TimerEvent: {}
+[22.181699] (mpu6050_ros) StdoutLine: {'line': b'Installing mpu6050_node script to /home/ubuntu/ros2_ws_rpi/install/mpu6050_ros/lib/mpu6050_ros\n'}
+[22.188019] (mpu6050_ros) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/ros2_ws_rpi/build/mpu6050_ros/install.log'\n"}
+[22.190068] (-) TimerEvent: {}
+[22.292076] (-) TimerEvent: {}
+[22.394198] (-) TimerEvent: {}
+[22.496196] (-) TimerEvent: {}
+[22.571300] (mpu6050_ros) CommandEnded: {'returncode': 0}
+[22.596807] (-) TimerEvent: {}
+[22.699717] (-) TimerEvent: {}
+[22.803156] (-) TimerEvent: {}
+[22.811229] (mpu6050_ros) JobEnded: {'identifier': 'mpu6050_ros', 'rc': 0}
+[22.821790] (-) EventReactorShutdown: {}

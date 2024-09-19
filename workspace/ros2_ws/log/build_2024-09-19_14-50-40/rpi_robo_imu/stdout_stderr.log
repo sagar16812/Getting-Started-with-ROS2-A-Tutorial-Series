@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/rpi_robo_imu/rpi_robo_imu.egg-info
+writing ../../build/rpi_robo_imu/rpi_robo_imu.egg-info/PKG-INFO
+writing dependency_links to ../../build/rpi_robo_imu/rpi_robo_imu.egg-info/dependency_links.txt
+writing entry points to ../../build/rpi_robo_imu/rpi_robo_imu.egg-info/entry_points.txt
+writing requirements to ../../build/rpi_robo_imu/rpi_robo_imu.egg-info/requires.txt
+writing top-level names to ../../build/rpi_robo_imu/rpi_robo_imu.egg-info/top_level.txt
+writing manifest file '../../build/rpi_robo_imu/rpi_robo_imu.egg-info/SOURCES.txt'
+reading manifest file '../../build/rpi_robo_imu/rpi_robo_imu.egg-info/SOURCES.txt'
+writing manifest file '../../build/rpi_robo_imu/rpi_robo_imu.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/rpi_robo_imu/build
+creating /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/rpi_robo_imu/build/lib
+creating /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/rpi_robo_imu/build/lib/rpi_robo_imu
+copying rpi_robo_imu/imu_subscriber.py -> /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/rpi_robo_imu/build/lib/rpi_robo_imu
+copying rpi_robo_imu/__init__.py -> /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/rpi_robo_imu/build/lib/rpi_robo_imu
+running install
+running install_lib
+creating /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/rpi_robo_imu/lib/python3.10/site-packages/rpi_robo_imu
+copying /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/rpi_robo_imu/build/lib/rpi_robo_imu/imu_subscriber.py -> /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/rpi_robo_imu/lib/python3.10/site-packages/rpi_robo_imu
+copying /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/rpi_robo_imu/build/lib/rpi_robo_imu/__init__.py -> /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/rpi_robo_imu/lib/python3.10/site-packages/rpi_robo_imu
+byte-compiling /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/rpi_robo_imu/lib/python3.10/site-packages/rpi_robo_imu/imu_subscriber.py to imu_subscriber.cpython-310.pyc
+byte-compiling /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/rpi_robo_imu/lib/python3.10/site-packages/rpi_robo_imu/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/rpi_robo_imu/share/ament_index
+creating /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/rpi_robo_imu/share/ament_index/resource_index
+creating /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/rpi_robo_imu/share/ament_index/resource_index/packages
+copying resource/rpi_robo_imu -> /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/rpi_robo_imu/share/ament_index/resource_index/packages
+copying package.xml -> /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/rpi_robo_imu/share/rpi_robo_imu
+running install_egg_info
+Copying ../../build/rpi_robo_imu/rpi_robo_imu.egg-info to /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/rpi_robo_imu/lib/python3.10/site-packages/rpi_robo_imu-0.0.0-py3.10.egg-info
+running install_scripts
+Installing imu_subscriber script to /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/rpi_robo_imu/lib/rpi_robo_imu
+writing list of installed files to '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/rpi_robo_imu/install.log'
