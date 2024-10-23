@@ -1,0 +1,33 @@
+[2.572s] Invoking command in '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/src/my_tutorials': PYTHONPATH=/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/my_tutorials/prefix_override:/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/my_tutorials/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_tutorials build --build-base /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/my_tutorials/build install --record /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/my_tutorials/install.log --single-version-externally-managed install_data
+[3.476s] running egg_info
+[3.478s] creating ../../build/my_tutorials/my_tutorials.egg-info
+[3.479s] writing ../../build/my_tutorials/my_tutorials.egg-info/PKG-INFO
+[3.479s] writing dependency_links to ../../build/my_tutorials/my_tutorials.egg-info/dependency_links.txt
+[3.479s] writing entry points to ../../build/my_tutorials/my_tutorials.egg-info/entry_points.txt
+[3.480s] writing requirements to ../../build/my_tutorials/my_tutorials.egg-info/requires.txt
+[3.480s] writing top-level names to ../../build/my_tutorials/my_tutorials.egg-info/top_level.txt
+[3.488s] writing manifest file '../../build/my_tutorials/my_tutorials.egg-info/SOURCES.txt'
+[3.497s] reading manifest file '../../build/my_tutorials/my_tutorials.egg-info/SOURCES.txt'
+[3.500s] writing manifest file '../../build/my_tutorials/my_tutorials.egg-info/SOURCES.txt'
+[3.501s] running build
+[3.501s] running build_py
+[3.501s] creating /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/my_tutorials/build
+[3.502s] creating /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/my_tutorials/build/lib
+[3.502s] creating /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/my_tutorials/build/lib/my_tutorials
+[3.502s] copying my_tutorials/__init__.py -> /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/my_tutorials/build/lib/my_tutorials
+[3.502s] running install
+[3.503s] running install_lib
+[3.505s] creating /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/my_tutorials/lib/python3.10/site-packages/my_tutorials
+[3.506s] copying /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/my_tutorials/build/lib/my_tutorials/__init__.py -> /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/my_tutorials/lib/python3.10/site-packages/my_tutorials
+[3.507s] byte-compiling /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/my_tutorials/lib/python3.10/site-packages/my_tutorials/__init__.py to __init__.cpython-310.pyc
+[3.508s] running install_data
+[3.508s] creating /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/my_tutorials/share/ament_index
+[3.509s] creating /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/my_tutorials/share/ament_index/resource_index
+[3.509s] creating /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/my_tutorials/share/ament_index/resource_index/packages
+[3.509s] copying resource/my_tutorials -> /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/my_tutorials/share/ament_index/resource_index/packages
+[3.510s] copying package.xml -> /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/my_tutorials/share/my_tutorials
+[3.510s] running install_egg_info
+[3.515s] Copying ../../build/my_tutorials/my_tutorials.egg-info to /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/my_tutorials/lib/python3.10/site-packages/my_tutorials-0.0.0-py3.10.egg-info
+[3.518s] running install_scripts
+[3.587s] writing list of installed files to '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/my_tutorials/install.log'
+[3.683s] Invoked command in '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/src/my_tutorials' returned '0': PYTHONPATH=/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/my_tutorials/prefix_override:/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/my_tutorials/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_tutorials build --build-base /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/my_tutorials/build install --record /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/my_tutorials/install.log --single-version-externally-managed install_data

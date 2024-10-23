@@ -1,6 +1,0 @@
-source;share/rpi_robo_imageprocessing/hook/pythonpath.ps1
-source;share/rpi_robo_imageprocessing/hook/pythonpath.dsv
-source;share/rpi_robo_imageprocessing/hook/pythonpath.sh
-source;share/rpi_robo_imageprocessing/hook/ament_prefix_path.ps1
-source;share/rpi_robo_imageprocessing/hook/ament_prefix_path.dsv
-source;share/rpi_robo_imageprocessing/hook/ament_prefix_path.sh

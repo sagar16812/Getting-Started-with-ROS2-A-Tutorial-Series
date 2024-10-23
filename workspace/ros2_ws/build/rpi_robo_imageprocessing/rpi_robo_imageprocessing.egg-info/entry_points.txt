@@ -1,4 +1,0 @@
-[console_scripts]
-person_detector = rpi_robo_imageprocessing.person_detector:main
-preview = rpi_robo_imageprocessing.image_subscriber:main
-

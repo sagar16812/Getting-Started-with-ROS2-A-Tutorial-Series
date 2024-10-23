@@ -1,3 +1,0 @@
-[console_scripts]
-imu_subscriber = rpi_robo_imu.imu_subscriber:main
-
