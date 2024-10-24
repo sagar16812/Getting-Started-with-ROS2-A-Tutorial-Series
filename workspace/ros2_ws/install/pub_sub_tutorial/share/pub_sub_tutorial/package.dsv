@@ -1,0 +1,6 @@
+source;share/pub_sub_tutorial/hook/pythonpath.ps1
+source;share/pub_sub_tutorial/hook/pythonpath.dsv
+source;share/pub_sub_tutorial/hook/pythonpath.sh
+source;share/pub_sub_tutorial/hook/ament_prefix_path.ps1
+source;share/pub_sub_tutorial/hook/ament_prefix_path.dsv
+source;share/pub_sub_tutorial/hook/ament_prefix_path.sh

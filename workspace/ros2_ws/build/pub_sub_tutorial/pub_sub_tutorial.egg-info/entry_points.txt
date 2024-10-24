@@ -1,0 +1,4 @@
+[console_scripts]
+led_publisher = pub_sub_tutorial.led_publisher:main
+led_subscriber = pub_sub_tutorial.led_subscriber:main
+
