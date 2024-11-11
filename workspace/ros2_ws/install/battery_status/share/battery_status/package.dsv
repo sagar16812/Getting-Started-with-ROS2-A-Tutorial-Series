@@ -1,0 +1,6 @@
+source;share/battery_status/hook/pythonpath.ps1
+source;share/battery_status/hook/pythonpath.dsv
+source;share/battery_status/hook/pythonpath.sh
+source;share/battery_status/hook/ament_prefix_path.ps1
+source;share/battery_status/hook/ament_prefix_path.dsv
+source;share/battery_status/hook/ament_prefix_path.sh

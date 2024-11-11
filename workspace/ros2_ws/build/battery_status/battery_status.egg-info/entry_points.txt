@@ -1,0 +1,4 @@
+[console_scripts]
+battery_client = battery_status.battery_client:main
+battery_service = battery_status.battery_service:main
+
