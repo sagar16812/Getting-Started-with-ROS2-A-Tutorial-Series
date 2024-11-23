@@ -1,0 +1,80 @@
+[0.000000] (-) TimerEvent: {}
+[0.000692] (-) JobUnselected: {'identifier': 'battery_status'}
+[0.000786] (-) JobUnselected: {'identifier': 'my_tutorials'}
+[0.000854] (-) JobUnselected: {'identifier': 'pub_sub_tutorial'}
+[0.000921] (-) JobUnselected: {'identifier': 'turtlesim_action_example'}
+[0.001000] (rotate_turtle_action_client) JobQueued: {'identifier': 'rotate_turtle_action_client', 'dependencies': OrderedDict()}
+[0.001627] (rotate_turtle_action_client) JobStarted: {'identifier': 'rotate_turtle_action_client'}
+[0.099386] (-) TimerEvent: {}
+[0.199905] (-) TimerEvent: {}
+[0.300445] (-) TimerEvent: {}
+[0.400969] (-) TimerEvent: {}
+[0.501439] (-) TimerEvent: {}
+[0.601936] (-) TimerEvent: {}
+[0.702456] (-) TimerEvent: {}
+[0.802971] (-) TimerEvent: {}
+[0.903563] (-) TimerEvent: {}
+[1.004176] (-) TimerEvent: {}
+[1.104770] (-) TimerEvent: {}
+[1.205311] (-) TimerEvent: {}
+[1.305885] (-) TimerEvent: {}
+[1.406426] (-) TimerEvent: {}
+[1.506919] (-) TimerEvent: {}
+[1.607485] (-) TimerEvent: {}
+[1.708016] (-) TimerEvent: {}
+[1.808617] (-) TimerEvent: {}
+[1.909211] (-) TimerEvent: {}
+[2.009757] (-) TimerEvent: {}
+[2.110284] (-) TimerEvent: {}
+[2.210809] (-) TimerEvent: {}
+[2.311435] (-) TimerEvent: {}
+[2.357442] (rotate_turtle_action_client) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/rotate_turtle_action_client', 'build', '--build-base', '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/rotate_turtle_action_client/build', 'install', '--record', '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/rotate_turtle_action_client/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/src/rotate_turtle_action_client', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'QT_SCALE_FACTOR': '1', 'LANGUAGE': 'en_IN:en', 'USER': 'sagar', 'XDG_SESSION_TYPE': 'x11', 'COMPIZ_CONFIG_PROFILE': 'mate', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/sagar', 'OLDPWD': '/home/sagar', 'DESKTOP_SESSION': 'mate', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'appmenu-gtk-module:gail:atk-bridge:canberra-gtk-module', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'MANAGERPID': '1716', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1740', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=2705d84f6c05d2dfaf2faced6741f5cc', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4705', 'UBUNTU_MENUPROXY': '1', 'QT_QPA_PLATFORMTHEME': 'gtk2', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'sagar', 'JOURNAL_STREAM': '8:13298', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GTK_OVERLAY_SCROLLING': '0', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/sagar/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/sagar-HP-Notebook:@/tmp/.ICE-unix/1742,unix/sagar-HP-Notebook:/tmp/.ICE-unix/1742', 'GDM_LANG': 'en_US', 'INVOCATION_ID': 'f43bdb394e9e47e88d803758389532a5', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'MATE', 'XDG_SESSION_DESKTOP': 'mate', 'XAUTHORITY': '/home/sagar/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '0', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/sagar', 'AMENT_PREFIX_PATH': '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/turtlesim_action_example:/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/pub_sub_tutorial:/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/my_tutorials:/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/battery_status:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:6f9c883b-77c7-4e75-aecb-eb363bd8f3d8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'mate', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'PWD': '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/rotate_turtle_action_client', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-mate:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=2705d84f6c05d2dfaf2faced6741f5cc', 'XDG_DATA_DIRS': '/usr/share/mate:/home/sagar/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/rotate_turtle_action_client/prefix_override:/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/rotate_turtle_action_client/lib/python3.10/site-packages:/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/turtlesim_action_example/lib/python3.10/site-packages:/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/pub_sub_tutorial/lib/python3.10/site-packages:/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/my_tutorials/lib/python3.10/site-packages:/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/battery_status/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'MATE_DESKTOP_SESSION_ID': 'this-is-deprecated', 'COLCON': '1', 'VTE_VERSION': '6800', 'QT_FONT_DPI': '96'}, 'shell': False}
+[2.411600] (-) TimerEvent: {}
+[2.512125] (-) TimerEvent: {}
+[2.612684] (-) TimerEvent: {}
+[2.713244] (-) TimerEvent: {}
+[2.813757] (-) TimerEvent: {}
+[2.914280] (-) TimerEvent: {}
+[3.014855] (-) TimerEvent: {}
+[3.115429] (-) TimerEvent: {}
+[3.202511] (rotate_turtle_action_client) StdoutLine: {'line': b'running egg_info\n'}
+[3.204658] (rotate_turtle_action_client) StdoutLine: {'line': b'creating ../../build/rotate_turtle_action_client/rotate_turtle_action_client.egg-info\n'}
+[3.205224] (rotate_turtle_action_client) StdoutLine: {'line': b'writing ../../build/rotate_turtle_action_client/rotate_turtle_action_client.egg-info/PKG-INFO\n'}
+[3.205887] (rotate_turtle_action_client) StdoutLine: {'line': b'writing dependency_links to ../../build/rotate_turtle_action_client/rotate_turtle_action_client.egg-info/dependency_links.txt\n'}
+[3.206248] (rotate_turtle_action_client) StdoutLine: {'line': b'writing entry points to ../../build/rotate_turtle_action_client/rotate_turtle_action_client.egg-info/entry_points.txt\n'}
+[3.206561] (rotate_turtle_action_client) StdoutLine: {'line': b'writing requirements to ../../build/rotate_turtle_action_client/rotate_turtle_action_client.egg-info/requires.txt\n'}
+[3.206911] (rotate_turtle_action_client) StdoutLine: {'line': b'writing top-level names to ../../build/rotate_turtle_action_client/rotate_turtle_action_client.egg-info/top_level.txt\n'}
+[3.215639] (-) TimerEvent: {}
+[3.217189] (rotate_turtle_action_client) StdoutLine: {'line': b"writing manifest file '../../build/rotate_turtle_action_client/rotate_turtle_action_client.egg-info/SOURCES.txt'\n"}
+[3.222167] (rotate_turtle_action_client) StdoutLine: {'line': b"reading manifest file '../../build/rotate_turtle_action_client/rotate_turtle_action_client.egg-info/SOURCES.txt'\n"}
+[3.225013] (rotate_turtle_action_client) StdoutLine: {'line': b"writing manifest file '../../build/rotate_turtle_action_client/rotate_turtle_action_client.egg-info/SOURCES.txt'\n"}
+[3.225425] (rotate_turtle_action_client) StdoutLine: {'line': b'running build\n'}
+[3.225677] (rotate_turtle_action_client) StdoutLine: {'line': b'running build_py\n'}
+[3.225951] (rotate_turtle_action_client) StdoutLine: {'line': b'creating /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/rotate_turtle_action_client/build\n'}
+[3.226265] (rotate_turtle_action_client) StdoutLine: {'line': b'creating /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/rotate_turtle_action_client/build/lib\n'}
+[3.226631] (rotate_turtle_action_client) StdoutLine: {'line': b'creating /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/rotate_turtle_action_client/build/lib/rotate_turtle_action_client\n'}
+[3.226900] (rotate_turtle_action_client) StdoutLine: {'line': b'copying rotate_turtle_action_client/rotate_turtle_client.py -> /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/rotate_turtle_action_client/build/lib/rotate_turtle_action_client\n'}
+[3.227230] (rotate_turtle_action_client) StdoutLine: {'line': b'copying rotate_turtle_action_client/__init__.py -> /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/rotate_turtle_action_client/build/lib/rotate_turtle_action_client\n'}
+[3.227560] (rotate_turtle_action_client) StdoutLine: {'line': b'running install\n'}
+[3.228443] (rotate_turtle_action_client) StdoutLine: {'line': b'running install_lib\n'}
+[3.230541] (rotate_turtle_action_client) StdoutLine: {'line': b'creating /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/rotate_turtle_action_client/lib/python3.10/site-packages/rotate_turtle_action_client\n'}
+[3.230965] (rotate_turtle_action_client) StdoutLine: {'line': b'copying /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/rotate_turtle_action_client/build/lib/rotate_turtle_action_client/rotate_turtle_client.py -> /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/rotate_turtle_action_client/lib/python3.10/site-packages/rotate_turtle_action_client\n'}
+[3.231282] (rotate_turtle_action_client) StdoutLine: {'line': b'copying /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/rotate_turtle_action_client/build/lib/rotate_turtle_action_client/__init__.py -> /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/rotate_turtle_action_client/lib/python3.10/site-packages/rotate_turtle_action_client\n'}
+[3.232784] (rotate_turtle_action_client) StdoutLine: {'line': b'byte-compiling /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/rotate_turtle_action_client/lib/python3.10/site-packages/rotate_turtle_action_client/rotate_turtle_client.py to rotate_turtle_client.cpython-310.pyc\n'}
+[3.234493] (rotate_turtle_action_client) StdoutLine: {'line': b'byte-compiling /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/rotate_turtle_action_client/lib/python3.10/site-packages/rotate_turtle_action_client/__init__.py to __init__.cpython-310.pyc\n'}
+[3.234938] (rotate_turtle_action_client) StdoutLine: {'line': b'running install_data\n'}
+[3.235269] (rotate_turtle_action_client) StdoutLine: {'line': b'creating /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/rotate_turtle_action_client/share/ament_index\n'}
+[3.235540] (rotate_turtle_action_client) StdoutLine: {'line': b'creating /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/rotate_turtle_action_client/share/ament_index/resource_index\n'}
+[3.235927] (rotate_turtle_action_client) StdoutLine: {'line': b'creating /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/rotate_turtle_action_client/share/ament_index/resource_index/packages\n'}
+[3.236187] (rotate_turtle_action_client) StdoutLine: {'line': b'copying resource/rotate_turtle_action_client -> /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/rotate_turtle_action_client/share/ament_index/resource_index/packages\n'}
+[3.236524] (rotate_turtle_action_client) StdoutLine: {'line': b'copying package.xml -> /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/rotate_turtle_action_client/share/rotate_turtle_action_client\n'}
+[3.236787] (rotate_turtle_action_client) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.241971] (rotate_turtle_action_client) StdoutLine: {'line': b'Copying ../../build/rotate_turtle_action_client/rotate_turtle_action_client.egg-info to /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/rotate_turtle_action_client/lib/python3.10/site-packages/rotate_turtle_action_client-0.0.0-py3.10.egg-info\n'}
+[3.244620] (rotate_turtle_action_client) StdoutLine: {'line': b'running install_scripts\n'}
+[3.305681] (rotate_turtle_action_client) StdoutLine: {'line': b'Installing rotate_turtle_action_client script to /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/rotate_turtle_action_client/lib/rotate_turtle_action_client\n'}
+[3.306529] (rotate_turtle_action_client) StdoutLine: {'line': b"writing list of installed files to '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/rotate_turtle_action_client/install.log'\n"}
+[3.315845] (-) TimerEvent: {}
+[3.394377] (rotate_turtle_action_client) CommandEnded: {'returncode': 0}
+[3.417628] (-) TimerEvent: {}
+[3.448290] (rotate_turtle_action_client) JobEnded: {'identifier': 'rotate_turtle_action_client', 'rc': 0}
+[3.451956] (-) EventReactorShutdown: {}

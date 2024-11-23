@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/rotate_turtle_action_client/rotate_turtle_action_client.egg-info/PKG-INFO
+../../build/rotate_turtle_action_client/rotate_turtle_action_client.egg-info/SOURCES.txt
+../../build/rotate_turtle_action_client/rotate_turtle_action_client.egg-info/dependency_links.txt
+../../build/rotate_turtle_action_client/rotate_turtle_action_client.egg-info/entry_points.txt
+../../build/rotate_turtle_action_client/rotate_turtle_action_client.egg-info/requires.txt
+../../build/rotate_turtle_action_client/rotate_turtle_action_client.egg-info/top_level.txt
+../../build/rotate_turtle_action_client/rotate_turtle_action_client.egg-info/zip-safe
+resource/rotate_turtle_action_client
+rotate_turtle_action_client/__init__.py
+rotate_turtle_action_client/rotate_turtle_client.py
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

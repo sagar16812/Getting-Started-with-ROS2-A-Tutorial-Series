@@ -1,0 +1,20 @@
+running egg_info
+writing ../../build/battery_status/battery_status.egg-info/PKG-INFO
+writing dependency_links to ../../build/battery_status/battery_status.egg-info/dependency_links.txt
+writing entry points to ../../build/battery_status/battery_status.egg-info/entry_points.txt
+writing requirements to ../../build/battery_status/battery_status.egg-info/requires.txt
+writing top-level names to ../../build/battery_status/battery_status.egg-info/top_level.txt
+reading manifest file '../../build/battery_status/battery_status.egg-info/SOURCES.txt'
+writing manifest file '../../build/battery_status/battery_status.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/battery_status/lib/python3.10/site-packages/battery_status-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/battery_status/battery_status.egg-info to /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/battery_status/lib/python3.10/site-packages/battery_status-0.0.0-py3.10.egg-info
+running install_scripts
+Installing battery_client script to /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/battery_status/lib/battery_status
+Installing battery_service script to /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/battery_status/lib/battery_status
+writing list of installed files to '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/battery_status/install.log'

@@ -1,0 +1,22 @@
+[5.733s] Invoking command in '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/src/my_tutorials': PYTHONPATH=/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/my_tutorials/prefix_override:/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/my_tutorials/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_tutorials build --build-base /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/my_tutorials/build install --record /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/my_tutorials/install.log --single-version-externally-managed install_data
+[6.933s] running egg_info
+[6.934s] writing ../../build/my_tutorials/my_tutorials.egg-info/PKG-INFO
+[6.936s] writing dependency_links to ../../build/my_tutorials/my_tutorials.egg-info/dependency_links.txt
+[6.941s] writing entry points to ../../build/my_tutorials/my_tutorials.egg-info/entry_points.txt
+[6.942s] writing requirements to ../../build/my_tutorials/my_tutorials.egg-info/requires.txt
+[6.943s] writing top-level names to ../../build/my_tutorials/my_tutorials.egg-info/top_level.txt
+[6.957s] reading manifest file '../../build/my_tutorials/my_tutorials.egg-info/SOURCES.txt'
+[6.962s] writing manifest file '../../build/my_tutorials/my_tutorials.egg-info/SOURCES.txt'
+[6.966s] running build
+[6.966s] running build_py
+[6.967s] running install
+[6.975s] running install_lib
+[6.977s] running install_data
+[6.981s] running install_egg_info
+[6.994s] removing '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/my_tutorials/lib/python3.10/site-packages/my_tutorials-0.0.0-py3.10.egg-info' (and everything under it)
+[6.994s] Copying ../../build/my_tutorials/my_tutorials.egg-info to /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/my_tutorials/lib/python3.10/site-packages/my_tutorials-0.0.0-py3.10.egg-info
+[7.000s] running install_scripts
+[7.154s] Installing publisher script to /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/my_tutorials/lib/my_tutorials
+[7.161s] Installing subscriber script to /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/my_tutorials/lib/my_tutorials
+[7.161s] writing list of installed files to '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/my_tutorials/install.log'
+[7.304s] Invoked command in '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/src/my_tutorials' returned '0': PYTHONPATH=/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/my_tutorials/prefix_override:/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/my_tutorials/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_tutorials build --build-base /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/my_tutorials/build install --record /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/my_tutorials/install.log --single-version-externally-managed install_data

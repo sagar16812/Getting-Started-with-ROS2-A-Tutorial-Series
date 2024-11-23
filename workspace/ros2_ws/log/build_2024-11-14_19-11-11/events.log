@@ -1,0 +1,86 @@
+[0.000000] (-) TimerEvent: {}
+[0.000799] (-) JobUnselected: {'identifier': 'battery_status'}
+[0.000881] (-) JobUnselected: {'identifier': 'my_tutorials'}
+[0.000955] (-) JobUnselected: {'identifier': 'pub_sub_tutorial'}
+[0.001097] (turtlesim_action_example) JobQueued: {'identifier': 'turtlesim_action_example', 'dependencies': OrderedDict()}
+[0.001166] (turtlesim_action_example) JobStarted: {'identifier': 'turtlesim_action_example'}
+[0.097911] (-) TimerEvent: {}
+[0.198433] (-) TimerEvent: {}
+[0.298971] (-) TimerEvent: {}
+[0.399549] (-) TimerEvent: {}
+[0.500083] (-) TimerEvent: {}
+[0.600656] (-) TimerEvent: {}
+[0.701172] (-) TimerEvent: {}
+[0.801744] (-) TimerEvent: {}
+[0.902287] (-) TimerEvent: {}
+[1.002797] (-) TimerEvent: {}
+[1.103532] (-) TimerEvent: {}
+[1.204061] (-) TimerEvent: {}
+[1.304614] (-) TimerEvent: {}
+[1.405131] (-) TimerEvent: {}
+[1.505684] (-) TimerEvent: {}
+[1.606200] (-) TimerEvent: {}
+[1.706721] (-) TimerEvent: {}
+[1.807276] (-) TimerEvent: {}
+[1.907785] (-) TimerEvent: {}
+[2.008430] (-) TimerEvent: {}
+[2.109328] (-) TimerEvent: {}
+[2.210025] (-) TimerEvent: {}
+[2.310897] (-) TimerEvent: {}
+[2.412858] (-) TimerEvent: {}
+[2.513579] (-) TimerEvent: {}
+[2.532326] (turtlesim_action_example) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/turtlesim_action_example', 'build', '--build-base', '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/turtlesim_action_example/build', 'install', '--record', '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/turtlesim_action_example/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/src/turtlesim_action_example', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'QT_SCALE_FACTOR': '1', 'LANGUAGE': 'en_IN:en', 'USER': 'sagar', 'XDG_SESSION_TYPE': 'x11', 'COMPIZ_CONFIG_PROFILE': 'mate', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/sagar', 'OLDPWD': '/home/sagar', 'DESKTOP_SESSION': 'mate', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'appmenu-gtk-module:gail:atk-bridge:canberra-gtk-module', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'MANAGERPID': '1893', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1921', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=f5977b6539bccdcccaf0f26167358c3f', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '27454', 'UBUNTU_MENUPROXY': '1', 'QT_QPA_PLATFORMTHEME': 'gtk2', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'sagar', 'JOURNAL_STREAM': '8:15536', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GTK_OVERLAY_SCROLLING': '0', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/sagar/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/sagar-HP-Notebook:@/tmp/.ICE-unix/1922,unix/sagar-HP-Notebook:/tmp/.ICE-unix/1922', 'GDM_LANG': 'en_US', 'INVOCATION_ID': 'ff70262d33074c91a39781602c12c08e', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'MATE', 'XDG_SESSION_DESKTOP': 'mate', 'XAUTHORITY': '/home/sagar/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '0', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/sagar', 'AMENT_PREFIX_PATH': '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/pub_sub_tutorial:/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/my_tutorials:/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/battery_status:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:b67a0335-08b9-4583-adf8-8da246f803ef', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'mate', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'PWD': '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/turtlesim_action_example', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-mate:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=f5977b6539bccdcccaf0f26167358c3f', 'XDG_DATA_DIRS': '/usr/share/mate:/home/sagar/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/turtlesim_action_example/prefix_override:/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/turtlesim_action_example/lib/python3.10/site-packages:/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/pub_sub_tutorial/lib/python3.10/site-packages:/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/my_tutorials/lib/python3.10/site-packages:/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/battery_status/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'MATE_DESKTOP_SESSION_ID': 'this-is-deprecated', 'COLCON': '1', 'VTE_VERSION': '6800', 'QT_FONT_DPI': '96'}, 'shell': False}
+[2.614434] (-) TimerEvent: {}
+[2.714988] (-) TimerEvent: {}
+[2.815574] (-) TimerEvent: {}
+[2.916104] (-) TimerEvent: {}
+[3.018447] (-) TimerEvent: {}
+[3.120523] (-) TimerEvent: {}
+[3.221121] (-) TimerEvent: {}
+[3.321899] (-) TimerEvent: {}
+[3.422466] (-) TimerEvent: {}
+[3.471999] (turtlesim_action_example) StdoutLine: {'line': b'running egg_info\n'}
+[3.474020] (turtlesim_action_example) StdoutLine: {'line': b'creating ../../build/turtlesim_action_example/turtlesim_action_example.egg-info\n'}
+[3.474596] (turtlesim_action_example) StdoutLine: {'line': b'writing ../../build/turtlesim_action_example/turtlesim_action_example.egg-info/PKG-INFO\n'}
+[3.475197] (turtlesim_action_example) StdoutLine: {'line': b'writing dependency_links to ../../build/turtlesim_action_example/turtlesim_action_example.egg-info/dependency_links.txt\n'}
+[3.475584] (turtlesim_action_example) StdoutLine: {'line': b'writing entry points to ../../build/turtlesim_action_example/turtlesim_action_example.egg-info/entry_points.txt\n'}
+[3.475917] (turtlesim_action_example) StdoutLine: {'line': b'writing requirements to ../../build/turtlesim_action_example/turtlesim_action_example.egg-info/requires.txt\n'}
+[3.476283] (turtlesim_action_example) StdoutLine: {'line': b'writing top-level names to ../../build/turtlesim_action_example/turtlesim_action_example.egg-info/top_level.txt\n'}
+[3.487311] (turtlesim_action_example) StdoutLine: {'line': b"writing manifest file '../../build/turtlesim_action_example/turtlesim_action_example.egg-info/SOURCES.txt'\n"}
+[3.492232] (turtlesim_action_example) StdoutLine: {'line': b"reading manifest file '../../build/turtlesim_action_example/turtlesim_action_example.egg-info/SOURCES.txt'\n"}
+[3.495538] (turtlesim_action_example) StdoutLine: {'line': b"writing manifest file '../../build/turtlesim_action_example/turtlesim_action_example.egg-info/SOURCES.txt'\n"}
+[3.496125] (turtlesim_action_example) StdoutLine: {'line': b'running build\n'}
+[3.496482] (turtlesim_action_example) StdoutLine: {'line': b'running build_py\n'}
+[3.496826] (turtlesim_action_example) StdoutLine: {'line': b'creating /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/turtlesim_action_example/build\n'}
+[3.497218] (turtlesim_action_example) StdoutLine: {'line': b'creating /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/turtlesim_action_example/build/lib\n'}
+[3.497486] (turtlesim_action_example) StdoutLine: {'line': b'creating /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/turtlesim_action_example/build/lib/turtlesim_action_example\n'}
+[3.497737] (turtlesim_action_example) StdoutLine: {'line': b'copying turtlesim_action_example/turtle_action_client.py -> /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/turtlesim_action_example/build/lib/turtlesim_action_example\n'}
+[3.498063] (turtlesim_action_example) StdoutLine: {'line': b'copying turtlesim_action_example/turtle_action_server.py -> /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/turtlesim_action_example/build/lib/turtlesim_action_example\n'}
+[3.498476] (turtlesim_action_example) StdoutLine: {'line': b'copying turtlesim_action_example/__init__.py -> /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/turtlesim_action_example/build/lib/turtlesim_action_example\n'}
+[3.499105] (turtlesim_action_example) StdoutLine: {'line': b'running install\n'}
+[3.500222] (turtlesim_action_example) StdoutLine: {'line': b'running install_lib\n'}
+[3.502346] (turtlesim_action_example) StdoutLine: {'line': b'creating /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/turtlesim_action_example/lib/python3.10/site-packages/turtlesim_action_example\n'}
+[3.502753] (turtlesim_action_example) StdoutLine: {'line': b'copying /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/turtlesim_action_example/build/lib/turtlesim_action_example/turtle_action_client.py -> /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/turtlesim_action_example/lib/python3.10/site-packages/turtlesim_action_example\n'}
+[3.503073] (turtlesim_action_example) StdoutLine: {'line': b'copying /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/turtlesim_action_example/build/lib/turtlesim_action_example/turtle_action_server.py -> /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/turtlesim_action_example/lib/python3.10/site-packages/turtlesim_action_example\n'}
+[3.503398] (turtlesim_action_example) StdoutLine: {'line': b'copying /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/turtlesim_action_example/build/lib/turtlesim_action_example/__init__.py -> /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/turtlesim_action_example/lib/python3.10/site-packages/turtlesim_action_example\n'}
+[3.504857] (turtlesim_action_example) StdoutLine: {'line': b'byte-compiling /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/turtlesim_action_example/lib/python3.10/site-packages/turtlesim_action_example/turtle_action_client.py to turtle_action_client.cpython-310.pyc\n'}
+[3.506912] (turtlesim_action_example) StdoutLine: {'line': b'byte-compiling /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/turtlesim_action_example/lib/python3.10/site-packages/turtlesim_action_example/turtle_action_server.py to turtle_action_server.cpython-310.pyc\n'}
+[3.509066] (turtlesim_action_example) StdoutLine: {'line': b'byte-compiling /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/turtlesim_action_example/lib/python3.10/site-packages/turtlesim_action_example/__init__.py to __init__.cpython-310.pyc\n'}
+[3.509567] (turtlesim_action_example) StdoutLine: {'line': b'running install_data\n'}
+[3.509897] (turtlesim_action_example) StdoutLine: {'line': b'creating /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/turtlesim_action_example/share/ament_index\n'}
+[3.510274] (turtlesim_action_example) StdoutLine: {'line': b'creating /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/turtlesim_action_example/share/ament_index/resource_index\n'}
+[3.510553] (turtlesim_action_example) StdoutLine: {'line': b'creating /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/turtlesim_action_example/share/ament_index/resource_index/packages\n'}
+[3.510821] (turtlesim_action_example) StdoutLine: {'line': b'copying resource/turtlesim_action_example -> /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/turtlesim_action_example/share/ament_index/resource_index/packages\n'}
+[3.511211] (turtlesim_action_example) StdoutLine: {'line': b'copying package.xml -> /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/turtlesim_action_example/share/turtlesim_action_example\n'}
+[3.511619] (turtlesim_action_example) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.516768] (turtlesim_action_example) StdoutLine: {'line': b'Copying ../../build/turtlesim_action_example/turtlesim_action_example.egg-info to /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/turtlesim_action_example/lib/python3.10/site-packages/turtlesim_action_example-0.0.0-py3.10.egg-info\n'}
+[3.519303] (turtlesim_action_example) StdoutLine: {'line': b'running install_scripts\n'}
+[3.522651] (-) TimerEvent: {}
+[3.589277] (turtlesim_action_example) StdoutLine: {'line': b'Installing turtle_action_client script to /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/turtlesim_action_example/lib/turtlesim_action_example\n'}
+[3.589780] (turtlesim_action_example) StdoutLine: {'line': b'Installing turtle_action_server script to /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/turtlesim_action_example/lib/turtlesim_action_example\n'}
+[3.590595] (turtlesim_action_example) StdoutLine: {'line': b"writing list of installed files to '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/turtlesim_action_example/install.log'\n"}
+[3.622823] (-) TimerEvent: {}
+[3.687401] (turtlesim_action_example) CommandEnded: {'returncode': 0}
+[3.723562] (-) TimerEvent: {}
+[3.755278] (turtlesim_action_example) JobEnded: {'identifier': 'turtlesim_action_example', 'rc': 0}
+[3.758330] (-) EventReactorShutdown: {}

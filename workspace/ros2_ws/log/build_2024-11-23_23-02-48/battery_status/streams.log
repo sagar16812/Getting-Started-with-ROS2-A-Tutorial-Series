@@ -1,0 +1,22 @@
+[5.748s] Invoking command in '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/src/battery_status': PYTHONPATH=/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/battery_status/prefix_override:/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/battery_status/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/battery_status build --build-base /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/battery_status/build install --record /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/battery_status/install.log --single-version-externally-managed install_data
+[6.960s] running egg_info
+[6.964s] writing ../../build/battery_status/battery_status.egg-info/PKG-INFO
+[6.969s] writing dependency_links to ../../build/battery_status/battery_status.egg-info/dependency_links.txt
+[6.969s] writing entry points to ../../build/battery_status/battery_status.egg-info/entry_points.txt
+[6.973s] writing requirements to ../../build/battery_status/battery_status.egg-info/requires.txt
+[6.973s] writing top-level names to ../../build/battery_status/battery_status.egg-info/top_level.txt
+[6.989s] reading manifest file '../../build/battery_status/battery_status.egg-info/SOURCES.txt'
+[6.994s] writing manifest file '../../build/battery_status/battery_status.egg-info/SOURCES.txt'
+[6.994s] running build
+[6.994s] running build_py
+[7.001s] running install
+[7.001s] running install_lib
+[7.011s] running install_data
+[7.015s] running install_egg_info
+[7.025s] removing '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/battery_status/lib/python3.10/site-packages/battery_status-0.0.0-py3.10.egg-info' (and everything under it)
+[7.026s] Copying ../../build/battery_status/battery_status.egg-info to /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/battery_status/lib/python3.10/site-packages/battery_status-0.0.0-py3.10.egg-info
+[7.029s] running install_scripts
+[7.130s] Installing battery_client script to /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/battery_status/lib/battery_status
+[7.135s] Installing battery_service script to /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/battery_status/lib/battery_status
+[7.137s] writing list of installed files to '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/battery_status/install.log'
+[7.284s] Invoked command in '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/src/battery_status' returned '0': PYTHONPATH=/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/battery_status/prefix_override:/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/battery_status/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/battery_status build --build-base /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/battery_status/build install --record /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/battery_status/install.log --single-version-externally-managed install_data

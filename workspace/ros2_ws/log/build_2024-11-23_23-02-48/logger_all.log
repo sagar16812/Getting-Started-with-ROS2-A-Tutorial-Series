@@ -1,0 +1,277 @@
+[0.366s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.367s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7c4938846980>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7c49389bad70>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7c49389bad70>>, mixin_verb=('build',))
+[0.981s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.981s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.981s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.981s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.981s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.981s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.982s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws'
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.019s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.019s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.019s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.020s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.020s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.020s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.020s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.021s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.021s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.021s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.021s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.022s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.022s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.022s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.022s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.022s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/battery_status) by extensions ['ignore', 'ignore_ament_install']
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(src/battery_status) by extension 'ignore'
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(src/battery_status) by extension 'ignore_ament_install'
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(src/battery_status) by extensions ['colcon_pkg']
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(src/battery_status) by extension 'colcon_pkg'
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(src/battery_status) by extensions ['colcon_meta']
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(src/battery_status) by extension 'colcon_meta'
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(src/battery_status) by extensions ['ros']
+[1.026s] Level 1:colcon.colcon_core.package_identification:_identify(src/battery_status) by extension 'ros'
+[1.033s] DEBUG:colcon.colcon_core.package_identification:Package 'src/battery_status' with type 'ros.ament_python' and name 'battery_status'
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_tutorials) by extension 'ignore'
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_tutorials) by extension 'ignore_ament_install'
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_tutorials) by extensions ['colcon_pkg']
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_tutorials) by extension 'colcon_pkg'
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_tutorials) by extensions ['colcon_meta']
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_tutorials) by extension 'colcon_meta'
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_tutorials) by extensions ['ros']
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_tutorials) by extension 'ros'
+[1.037s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_tutorials' with type 'ros.ament_python' and name 'my_tutorials'
+[1.038s] Level 1:colcon.colcon_core.package_identification:_identify(src/pub_sub_tutorial) by extensions ['ignore', 'ignore_ament_install']
+[1.038s] Level 1:colcon.colcon_core.package_identification:_identify(src/pub_sub_tutorial) by extension 'ignore'
+[1.038s] Level 1:colcon.colcon_core.package_identification:_identify(src/pub_sub_tutorial) by extension 'ignore_ament_install'
+[1.038s] Level 1:colcon.colcon_core.package_identification:_identify(src/pub_sub_tutorial) by extensions ['colcon_pkg']
+[1.038s] Level 1:colcon.colcon_core.package_identification:_identify(src/pub_sub_tutorial) by extension 'colcon_pkg'
+[1.038s] Level 1:colcon.colcon_core.package_identification:_identify(src/pub_sub_tutorial) by extensions ['colcon_meta']
+[1.038s] Level 1:colcon.colcon_core.package_identification:_identify(src/pub_sub_tutorial) by extension 'colcon_meta'
+[1.039s] Level 1:colcon.colcon_core.package_identification:_identify(src/pub_sub_tutorial) by extensions ['ros']
+[1.039s] Level 1:colcon.colcon_core.package_identification:_identify(src/pub_sub_tutorial) by extension 'ros'
+[1.040s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pub_sub_tutorial' with type 'ros.ament_python' and name 'pub_sub_tutorial'
+[1.041s] Level 1:colcon.colcon_core.package_identification:_identify(src/rotate_turtle_action_client) by extensions ['ignore', 'ignore_ament_install']
+[1.041s] Level 1:colcon.colcon_core.package_identification:_identify(src/rotate_turtle_action_client) by extension 'ignore'
+[1.041s] Level 1:colcon.colcon_core.package_identification:_identify(src/rotate_turtle_action_client) by extension 'ignore_ament_install'
+[1.041s] Level 1:colcon.colcon_core.package_identification:_identify(src/rotate_turtle_action_client) by extensions ['colcon_pkg']
+[1.041s] Level 1:colcon.colcon_core.package_identification:_identify(src/rotate_turtle_action_client) by extension 'colcon_pkg'
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(src/rotate_turtle_action_client) by extensions ['colcon_meta']
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(src/rotate_turtle_action_client) by extension 'colcon_meta'
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(src/rotate_turtle_action_client) by extensions ['ros']
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(src/rotate_turtle_action_client) by extension 'ros'
+[1.043s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rotate_turtle_action_client' with type 'ros.ament_python' and name 'rotate_turtle_action_client'
+[1.044s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.044s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.044s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.044s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.044s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.144s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.144s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.149s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install
+[1.155s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 296 installed packages in /opt/ros/humble
+[1.162s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.311s] Level 5:colcon.colcon_core.verb:set package 'battery_status' build argument 'cmake_args' from command line to 'None'
+[1.311s] Level 5:colcon.colcon_core.verb:set package 'battery_status' build argument 'cmake_target' from command line to 'None'
+[1.311s] Level 5:colcon.colcon_core.verb:set package 'battery_status' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.311s] Level 5:colcon.colcon_core.verb:set package 'battery_status' build argument 'cmake_clean_cache' from command line to 'False'
+[1.312s] Level 5:colcon.colcon_core.verb:set package 'battery_status' build argument 'cmake_clean_first' from command line to 'False'
+[1.312s] Level 5:colcon.colcon_core.verb:set package 'battery_status' build argument 'cmake_force_configure' from command line to 'False'
+[1.312s] Level 5:colcon.colcon_core.verb:set package 'battery_status' build argument 'ament_cmake_args' from command line to 'None'
+[1.312s] Level 5:colcon.colcon_core.verb:set package 'battery_status' build argument 'catkin_cmake_args' from command line to 'None'
+[1.312s] Level 5:colcon.colcon_core.verb:set package 'battery_status' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.312s] DEBUG:colcon.colcon_core.verb:Building package 'battery_status' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/battery_status', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/battery_status', 'merge_install': False, 'path': '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/src/battery_status', 'symlink_install': False, 'test_result_base': None}
+[1.313s] Level 5:colcon.colcon_core.verb:set package 'my_tutorials' build argument 'cmake_args' from command line to 'None'
+[1.313s] Level 5:colcon.colcon_core.verb:set package 'my_tutorials' build argument 'cmake_target' from command line to 'None'
+[1.313s] Level 5:colcon.colcon_core.verb:set package 'my_tutorials' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.314s] Level 5:colcon.colcon_core.verb:set package 'my_tutorials' build argument 'cmake_clean_cache' from command line to 'False'
+[1.314s] Level 5:colcon.colcon_core.verb:set package 'my_tutorials' build argument 'cmake_clean_first' from command line to 'False'
+[1.314s] Level 5:colcon.colcon_core.verb:set package 'my_tutorials' build argument 'cmake_force_configure' from command line to 'False'
+[1.314s] Level 5:colcon.colcon_core.verb:set package 'my_tutorials' build argument 'ament_cmake_args' from command line to 'None'
+[1.314s] Level 5:colcon.colcon_core.verb:set package 'my_tutorials' build argument 'catkin_cmake_args' from command line to 'None'
+[1.314s] Level 5:colcon.colcon_core.verb:set package 'my_tutorials' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.314s] DEBUG:colcon.colcon_core.verb:Building package 'my_tutorials' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/my_tutorials', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/my_tutorials', 'merge_install': False, 'path': '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/src/my_tutorials', 'symlink_install': False, 'test_result_base': None}
+[1.315s] Level 5:colcon.colcon_core.verb:set package 'pub_sub_tutorial' build argument 'cmake_args' from command line to 'None'
+[1.315s] Level 5:colcon.colcon_core.verb:set package 'pub_sub_tutorial' build argument 'cmake_target' from command line to 'None'
+[1.316s] Level 5:colcon.colcon_core.verb:set package 'pub_sub_tutorial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.316s] Level 5:colcon.colcon_core.verb:set package 'pub_sub_tutorial' build argument 'cmake_clean_cache' from command line to 'False'
+[1.316s] Level 5:colcon.colcon_core.verb:set package 'pub_sub_tutorial' build argument 'cmake_clean_first' from command line to 'False'
+[1.316s] Level 5:colcon.colcon_core.verb:set package 'pub_sub_tutorial' build argument 'cmake_force_configure' from command line to 'False'
+[1.316s] Level 5:colcon.colcon_core.verb:set package 'pub_sub_tutorial' build argument 'ament_cmake_args' from command line to 'None'
+[1.316s] Level 5:colcon.colcon_core.verb:set package 'pub_sub_tutorial' build argument 'catkin_cmake_args' from command line to 'None'
+[1.316s] Level 5:colcon.colcon_core.verb:set package 'pub_sub_tutorial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.316s] DEBUG:colcon.colcon_core.verb:Building package 'pub_sub_tutorial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/pub_sub_tutorial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/pub_sub_tutorial', 'merge_install': False, 'path': '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/src/pub_sub_tutorial', 'symlink_install': False, 'test_result_base': None}
+[1.317s] Level 5:colcon.colcon_core.verb:set package 'rotate_turtle_action_client' build argument 'cmake_args' from command line to 'None'
+[1.317s] Level 5:colcon.colcon_core.verb:set package 'rotate_turtle_action_client' build argument 'cmake_target' from command line to 'None'
+[1.318s] Level 5:colcon.colcon_core.verb:set package 'rotate_turtle_action_client' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.318s] Level 5:colcon.colcon_core.verb:set package 'rotate_turtle_action_client' build argument 'cmake_clean_cache' from command line to 'False'
+[1.318s] Level 5:colcon.colcon_core.verb:set package 'rotate_turtle_action_client' build argument 'cmake_clean_first' from command line to 'False'
+[1.318s] Level 5:colcon.colcon_core.verb:set package 'rotate_turtle_action_client' build argument 'cmake_force_configure' from command line to 'False'
+[1.318s] Level 5:colcon.colcon_core.verb:set package 'rotate_turtle_action_client' build argument 'ament_cmake_args' from command line to 'None'
+[1.318s] Level 5:colcon.colcon_core.verb:set package 'rotate_turtle_action_client' build argument 'catkin_cmake_args' from command line to 'None'
+[1.318s] Level 5:colcon.colcon_core.verb:set package 'rotate_turtle_action_client' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.318s] DEBUG:colcon.colcon_core.verb:Building package 'rotate_turtle_action_client' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/rotate_turtle_action_client', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/rotate_turtle_action_client', 'merge_install': False, 'path': '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/src/rotate_turtle_action_client', 'symlink_install': False, 'test_result_base': None}
+[1.319s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.321s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.322s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/src/battery_status' with build type 'ament_python'
+[1.322s] Level 1:colcon.colcon_core.shell:create_environment_hook('battery_status', 'ament_prefix_path')
+[1.328s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.329s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/battery_status/share/battery_status/hook/ament_prefix_path.ps1'
+[1.332s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/battery_status/share/battery_status/hook/ament_prefix_path.dsv'
+[1.334s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/battery_status/share/battery_status/hook/ament_prefix_path.sh'
+[1.337s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.337s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.349s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/src/my_tutorials' with build type 'ament_python'
+[1.350s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_tutorials', 'ament_prefix_path')
+[1.351s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/my_tutorials/share/my_tutorials/hook/ament_prefix_path.ps1'
+[1.354s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/my_tutorials/share/my_tutorials/hook/ament_prefix_path.dsv'
+[1.355s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/my_tutorials/share/my_tutorials/hook/ament_prefix_path.sh'
+[1.357s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.357s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.369s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/src/pub_sub_tutorial' with build type 'ament_python'
+[1.369s] Level 1:colcon.colcon_core.shell:create_environment_hook('pub_sub_tutorial', 'ament_prefix_path')
+[1.370s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/pub_sub_tutorial/share/pub_sub_tutorial/hook/ament_prefix_path.ps1'
+[1.373s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/pub_sub_tutorial/share/pub_sub_tutorial/hook/ament_prefix_path.dsv'
+[1.374s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/pub_sub_tutorial/share/pub_sub_tutorial/hook/ament_prefix_path.sh'
+[1.375s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.375s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.388s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/src/rotate_turtle_action_client' with build type 'ament_python'
+[1.388s] Level 1:colcon.colcon_core.shell:create_environment_hook('rotate_turtle_action_client', 'ament_prefix_path')
+[1.389s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/rotate_turtle_action_client/share/rotate_turtle_action_client/hook/ament_prefix_path.ps1'
+[1.391s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/rotate_turtle_action_client/share/rotate_turtle_action_client/hook/ament_prefix_path.dsv'
+[1.393s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/rotate_turtle_action_client/share/rotate_turtle_action_client/hook/ament_prefix_path.sh'
+[1.396s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.396s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.367s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/src/battery_status'
+[2.368s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.368s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.273s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/src/my_tutorials'
+[3.275s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.275s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.217s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/src/pub_sub_tutorial'
+[4.218s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.218s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.251s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/src/rotate_turtle_action_client'
+[5.252s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.253s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.970s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/src/pub_sub_tutorial': PYTHONPATH=/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/pub_sub_tutorial/prefix_override:/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/pub_sub_tutorial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/pub_sub_tutorial build --build-base /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/pub_sub_tutorial/build install --record /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/pub_sub_tutorial/install.log --single-version-externally-managed install_data
+[7.071s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/src/battery_status': PYTHONPATH=/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/battery_status/prefix_override:/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/battery_status/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/battery_status build --build-base /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/battery_status/build install --record /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/battery_status/install.log --single-version-externally-managed install_data
+[7.082s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/src/my_tutorials': PYTHONPATH=/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/my_tutorials/prefix_override:/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/my_tutorials/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_tutorials build --build-base /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/my_tutorials/build install --record /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/my_tutorials/install.log --single-version-externally-managed install_data
+[7.100s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/src/rotate_turtle_action_client': PYTHONPATH=/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/rotate_turtle_action_client/prefix_override:/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/rotate_turtle_action_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/rotate_turtle_action_client build --build-base /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/rotate_turtle_action_client/build install --record /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/rotate_turtle_action_client/install.log --single-version-externally-managed install_data
+[8.470s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/src/pub_sub_tutorial' returned '0': PYTHONPATH=/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/pub_sub_tutorial/prefix_override:/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/pub_sub_tutorial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/pub_sub_tutorial build --build-base /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/pub_sub_tutorial/build install --record /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/pub_sub_tutorial/install.log --single-version-externally-managed install_data
+[8.482s] Level 1:colcon.colcon_core.environment:checking '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/pub_sub_tutorial' for CMake module files
+[8.486s] Level 1:colcon.colcon_core.environment:checking '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/pub_sub_tutorial' for CMake config files
+[8.492s] Level 1:colcon.colcon_core.environment:checking '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/pub_sub_tutorial/lib'
+[8.493s] Level 1:colcon.colcon_core.environment:checking '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/pub_sub_tutorial/bin'
+[8.494s] Level 1:colcon.colcon_core.environment:checking '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/pub_sub_tutorial/lib/pkgconfig/pub_sub_tutorial.pc'
+[8.495s] Level 1:colcon.colcon_core.environment:checking '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/pub_sub_tutorial/lib/python3.10/site-packages'
+[8.496s] Level 1:colcon.colcon_core.shell:create_environment_hook('pub_sub_tutorial', 'pythonpath')
+[8.497s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/pub_sub_tutorial/share/pub_sub_tutorial/hook/pythonpath.ps1'
+[8.500s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/pub_sub_tutorial/share/pub_sub_tutorial/hook/pythonpath.dsv'
+[8.502s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/pub_sub_tutorial/share/pub_sub_tutorial/hook/pythonpath.sh'
+[8.506s] Level 1:colcon.colcon_core.environment:checking '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/pub_sub_tutorial/bin'
+[8.507s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pub_sub_tutorial)
+[8.509s] INFO:colcon.colcon_core.shell:Creating package script '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/pub_sub_tutorial/share/pub_sub_tutorial/package.ps1'
+[8.515s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/pub_sub_tutorial/share/pub_sub_tutorial/package.dsv'
+[8.519s] INFO:colcon.colcon_core.shell:Creating package script '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/pub_sub_tutorial/share/pub_sub_tutorial/package.sh'
+[8.523s] INFO:colcon.colcon_core.shell:Creating package script '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/pub_sub_tutorial/share/pub_sub_tutorial/package.bash'
+[8.527s] INFO:colcon.colcon_core.shell:Creating package script '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/pub_sub_tutorial/share/pub_sub_tutorial/package.zsh'
+[8.532s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/pub_sub_tutorial/share/colcon-core/packages/pub_sub_tutorial)
+[8.546s] Level 1:colcon.colcon_core.environment:checking '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/rotate_turtle_action_client' for CMake module files
+[8.548s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/src/rotate_turtle_action_client' returned '0': PYTHONPATH=/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/rotate_turtle_action_client/prefix_override:/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/rotate_turtle_action_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/rotate_turtle_action_client build --build-base /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/rotate_turtle_action_client/build install --record /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/rotate_turtle_action_client/install.log --single-version-externally-managed install_data
+[8.550s] Level 1:colcon.colcon_core.environment:checking '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/rotate_turtle_action_client' for CMake config files
+[8.552s] Level 1:colcon.colcon_core.environment:checking '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/rotate_turtle_action_client/lib'
+[8.553s] Level 1:colcon.colcon_core.environment:checking '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/rotate_turtle_action_client/bin'
+[8.554s] Level 1:colcon.colcon_core.environment:checking '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/rotate_turtle_action_client/lib/pkgconfig/rotate_turtle_action_client.pc'
+[8.555s] Level 1:colcon.colcon_core.environment:checking '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/rotate_turtle_action_client/lib/python3.10/site-packages'
+[8.555s] Level 1:colcon.colcon_core.shell:create_environment_hook('rotate_turtle_action_client', 'pythonpath')
+[8.556s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/rotate_turtle_action_client/share/rotate_turtle_action_client/hook/pythonpath.ps1'
+[8.558s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/rotate_turtle_action_client/share/rotate_turtle_action_client/hook/pythonpath.dsv'
+[8.560s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/rotate_turtle_action_client/share/rotate_turtle_action_client/hook/pythonpath.sh'
+[8.564s] Level 1:colcon.colcon_core.environment:checking '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/rotate_turtle_action_client/bin'
+[8.564s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rotate_turtle_action_client)
+[8.566s] INFO:colcon.colcon_core.shell:Creating package script '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/rotate_turtle_action_client/share/rotate_turtle_action_client/package.ps1'
+[8.569s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/rotate_turtle_action_client/share/rotate_turtle_action_client/package.dsv'
+[8.572s] INFO:colcon.colcon_core.shell:Creating package script '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/rotate_turtle_action_client/share/rotate_turtle_action_client/package.sh'
+[8.574s] INFO:colcon.colcon_core.shell:Creating package script '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/rotate_turtle_action_client/share/rotate_turtle_action_client/package.bash'
+[8.576s] INFO:colcon.colcon_core.shell:Creating package script '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/rotate_turtle_action_client/share/rotate_turtle_action_client/package.zsh'
+[8.578s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/rotate_turtle_action_client/share/colcon-core/packages/rotate_turtle_action_client)
+[8.604s] Level 1:colcon.colcon_core.environment:checking '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/battery_status' for CMake module files
+[8.609s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/src/battery_status' returned '0': PYTHONPATH=/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/battery_status/prefix_override:/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/battery_status/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/battery_status build --build-base /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/battery_status/build install --record /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/battery_status/install.log --single-version-externally-managed install_data
+[8.611s] Level 1:colcon.colcon_core.environment:checking '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/battery_status' for CMake config files
+[8.616s] Level 1:colcon.colcon_core.environment:checking '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/battery_status/lib'
+[8.616s] Level 1:colcon.colcon_core.environment:checking '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/battery_status/bin'
+[8.616s] Level 1:colcon.colcon_core.environment:checking '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/battery_status/lib/pkgconfig/battery_status.pc'
+[8.619s] Level 1:colcon.colcon_core.environment:checking '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/battery_status/lib/python3.10/site-packages'
+[8.619s] Level 1:colcon.colcon_core.shell:create_environment_hook('battery_status', 'pythonpath')
+[8.623s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/battery_status/share/battery_status/hook/pythonpath.ps1'
+[8.626s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/battery_status/share/battery_status/hook/pythonpath.dsv'
+[8.628s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/battery_status/share/battery_status/hook/pythonpath.sh'
+[8.632s] Level 1:colcon.colcon_core.environment:checking '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/battery_status/bin'
+[8.632s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(battery_status)
+[8.634s] INFO:colcon.colcon_core.shell:Creating package script '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/battery_status/share/battery_status/package.ps1'
+[8.638s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/battery_status/share/battery_status/package.dsv'
+[8.640s] INFO:colcon.colcon_core.shell:Creating package script '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/battery_status/share/battery_status/package.sh'
+[8.642s] INFO:colcon.colcon_core.shell:Creating package script '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/battery_status/share/battery_status/package.bash'
+[8.644s] INFO:colcon.colcon_core.shell:Creating package script '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/battery_status/share/battery_status/package.zsh'
+[8.646s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/battery_status/share/colcon-core/packages/battery_status)
+[8.651s] Level 1:colcon.colcon_core.environment:checking '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/my_tutorials' for CMake module files
+[8.654s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/src/my_tutorials' returned '0': PYTHONPATH=/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/my_tutorials/prefix_override:/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/my_tutorials/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_tutorials build --build-base /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/my_tutorials/build install --record /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/my_tutorials/install.log --single-version-externally-managed install_data
+[8.655s] Level 1:colcon.colcon_core.environment:checking '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/my_tutorials' for CMake config files
+[8.658s] Level 1:colcon.colcon_core.environment:checking '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/my_tutorials/lib'
+[8.659s] Level 1:colcon.colcon_core.environment:checking '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/my_tutorials/bin'
+[8.659s] Level 1:colcon.colcon_core.environment:checking '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/my_tutorials/lib/pkgconfig/my_tutorials.pc'
+[8.660s] Level 1:colcon.colcon_core.environment:checking '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/my_tutorials/lib/python3.10/site-packages'
+[8.660s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_tutorials', 'pythonpath')
+[8.661s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/my_tutorials/share/my_tutorials/hook/pythonpath.ps1'
+[8.662s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/my_tutorials/share/my_tutorials/hook/pythonpath.dsv'
+[8.663s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/my_tutorials/share/my_tutorials/hook/pythonpath.sh'
+[8.664s] Level 1:colcon.colcon_core.environment:checking '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/my_tutorials/bin'
+[8.665s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_tutorials)
+[8.666s] INFO:colcon.colcon_core.shell:Creating package script '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/my_tutorials/share/my_tutorials/package.ps1'
+[8.667s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/my_tutorials/share/my_tutorials/package.dsv'
+[8.668s] INFO:colcon.colcon_core.shell:Creating package script '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/my_tutorials/share/my_tutorials/package.sh'
+[8.669s] INFO:colcon.colcon_core.shell:Creating package script '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/my_tutorials/share/my_tutorials/package.bash'
+[8.670s] INFO:colcon.colcon_core.shell:Creating package script '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/my_tutorials/share/my_tutorials/package.zsh'
+[8.671s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/my_tutorials/share/colcon-core/packages/my_tutorials)
+[8.671s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[8.672s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[8.673s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[8.673s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[8.693s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[8.694s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[8.694s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[9.077s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[9.078s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/local_setup.ps1'
+[9.081s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/_local_setup_util_ps1.py'
+[9.087s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/setup.ps1'
+[9.091s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/local_setup.sh'
+[9.093s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/_local_setup_util_sh.py'
+[9.095s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/setup.sh'
+[9.099s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/local_setup.bash'
+[9.101s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/setup.bash'
+[9.104s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/local_setup.zsh'
+[9.106s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/setup.zsh'

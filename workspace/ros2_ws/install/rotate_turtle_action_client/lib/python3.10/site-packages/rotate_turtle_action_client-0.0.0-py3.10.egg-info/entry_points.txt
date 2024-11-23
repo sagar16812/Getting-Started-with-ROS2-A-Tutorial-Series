@@ -1,0 +1,3 @@
+[console_scripts]
+rotate_turtle_action_client = rotate_turtle_action_client.rotate_turtle_client:main
+

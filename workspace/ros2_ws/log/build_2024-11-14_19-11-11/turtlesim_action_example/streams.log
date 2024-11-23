@@ -1,0 +1,41 @@
+[2.533s] Invoking command in '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/src/turtlesim_action_example': PYTHONPATH=/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/turtlesim_action_example/prefix_override:/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/turtlesim_action_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtlesim_action_example build --build-base /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/turtlesim_action_example/build install --record /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/turtlesim_action_example/install.log --single-version-externally-managed install_data
+[3.471s] running egg_info
+[3.473s] creating ../../build/turtlesim_action_example/turtlesim_action_example.egg-info
+[3.474s] writing ../../build/turtlesim_action_example/turtlesim_action_example.egg-info/PKG-INFO
+[3.474s] writing dependency_links to ../../build/turtlesim_action_example/turtlesim_action_example.egg-info/dependency_links.txt
+[3.475s] writing entry points to ../../build/turtlesim_action_example/turtlesim_action_example.egg-info/entry_points.txt
+[3.475s] writing requirements to ../../build/turtlesim_action_example/turtlesim_action_example.egg-info/requires.txt
+[3.475s] writing top-level names to ../../build/turtlesim_action_example/turtlesim_action_example.egg-info/top_level.txt
+[3.486s] writing manifest file '../../build/turtlesim_action_example/turtlesim_action_example.egg-info/SOURCES.txt'
+[3.491s] reading manifest file '../../build/turtlesim_action_example/turtlesim_action_example.egg-info/SOURCES.txt'
+[3.495s] writing manifest file '../../build/turtlesim_action_example/turtlesim_action_example.egg-info/SOURCES.txt'
+[3.495s] running build
+[3.495s] running build_py
+[3.496s] creating /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/turtlesim_action_example/build
+[3.496s] creating /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/turtlesim_action_example/build/lib
+[3.496s] creating /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/turtlesim_action_example/build/lib/turtlesim_action_example
+[3.497s] copying turtlesim_action_example/turtle_action_client.py -> /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/turtlesim_action_example/build/lib/turtlesim_action_example
+[3.497s] copying turtlesim_action_example/turtle_action_server.py -> /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/turtlesim_action_example/build/lib/turtlesim_action_example
+[3.497s] copying turtlesim_action_example/__init__.py -> /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/turtlesim_action_example/build/lib/turtlesim_action_example
+[3.498s] running install
+[3.499s] running install_lib
+[3.501s] creating /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/turtlesim_action_example/lib/python3.10/site-packages/turtlesim_action_example
+[3.502s] copying /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/turtlesim_action_example/build/lib/turtlesim_action_example/turtle_action_client.py -> /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/turtlesim_action_example/lib/python3.10/site-packages/turtlesim_action_example
+[3.502s] copying /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/turtlesim_action_example/build/lib/turtlesim_action_example/turtle_action_server.py -> /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/turtlesim_action_example/lib/python3.10/site-packages/turtlesim_action_example
+[3.502s] copying /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/turtlesim_action_example/build/lib/turtlesim_action_example/__init__.py -> /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/turtlesim_action_example/lib/python3.10/site-packages/turtlesim_action_example
+[3.504s] byte-compiling /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/turtlesim_action_example/lib/python3.10/site-packages/turtlesim_action_example/turtle_action_client.py to turtle_action_client.cpython-310.pyc
+[3.506s] byte-compiling /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/turtlesim_action_example/lib/python3.10/site-packages/turtlesim_action_example/turtle_action_server.py to turtle_action_server.cpython-310.pyc
+[3.508s] byte-compiling /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/turtlesim_action_example/lib/python3.10/site-packages/turtlesim_action_example/__init__.py to __init__.cpython-310.pyc
+[3.509s] running install_data
+[3.509s] creating /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/turtlesim_action_example/share/ament_index
+[3.509s] creating /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/turtlesim_action_example/share/ament_index/resource_index
+[3.510s] creating /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/turtlesim_action_example/share/ament_index/resource_index/packages
+[3.510s] copying resource/turtlesim_action_example -> /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/turtlesim_action_example/share/ament_index/resource_index/packages
+[3.510s] copying package.xml -> /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/turtlesim_action_example/share/turtlesim_action_example
+[3.511s] running install_egg_info
+[3.516s] Copying ../../build/turtlesim_action_example/turtlesim_action_example.egg-info to /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/turtlesim_action_example/lib/python3.10/site-packages/turtlesim_action_example-0.0.0-py3.10.egg-info
+[3.518s] running install_scripts
+[3.588s] Installing turtle_action_client script to /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/turtlesim_action_example/lib/turtlesim_action_example
+[3.589s] Installing turtle_action_server script to /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/turtlesim_action_example/lib/turtlesim_action_example
+[3.590s] writing list of installed files to '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/turtlesim_action_example/install.log'
+[3.687s] Invoked command in '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/src/turtlesim_action_example' returned '0': PYTHONPATH=/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/turtlesim_action_example/prefix_override:/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/turtlesim_action_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtlesim_action_example build --build-base /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/turtlesim_action_example/build install --record /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/turtlesim_action_example/install.log --single-version-externally-managed install_data
