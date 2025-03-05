@@ -1,4 +1,0 @@
-[console_scripts]
-publisher = my_tutorials.simple_publisher:main
-subscriber = my_tutorials.simple_subscriber:main
-

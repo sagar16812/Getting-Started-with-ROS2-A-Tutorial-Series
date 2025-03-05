@@ -1,0 +1,53 @@
+[7.591s] Invoking command in '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/src/simple_node_example': PYTHONPATH=/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/simple_node_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/simple_node_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/simple_node_example build --build-base /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/simple_node_example/build install --record /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/simple_node_example/install.log --single-version-externally-managed install_data
+[9.027s] /home/sagar/.local/lib/python3.10/site-packages/setuptools_scm/_integration/setuptools.py:31: RuntimeWarning: 
+[9.027s] ERROR: setuptools==59.6.0 is used in combination with setuptools_scm>=8.x
+[9.028s] 
+[9.028s] Your build configuration is incomplete and previously worked by accident!
+[9.028s] setuptools_scm requires setuptools>=61
+[9.029s] 
+[9.029s] Suggested workaround if applicable:
+[9.030s]  - migrating from the deprecated setup_requires mechanism to pep517/518
+[9.031s]    and using a pyproject.toml to declare build dependencies
+[9.031s]    which are reliably pre-installed before running the build tools
+[9.031s] 
+[9.032s]   warnings.warn(
+[9.121s] running egg_info
+[9.125s] creating ../../build/simple_node_example/simple_node_example.egg-info
+[9.129s] writing ../../build/simple_node_example/simple_node_example.egg-info/PKG-INFO
+[9.133s] writing dependency_links to ../../build/simple_node_example/simple_node_example.egg-info/dependency_links.txt
+[9.138s] writing entry points to ../../build/simple_node_example/simple_node_example.egg-info/entry_points.txt
+[9.138s] writing requirements to ../../build/simple_node_example/simple_node_example.egg-info/requires.txt
+[9.138s] writing top-level names to ../../build/simple_node_example/simple_node_example.egg-info/top_level.txt
+[9.155s] writing manifest file '../../build/simple_node_example/simple_node_example.egg-info/SOURCES.txt'
+[10.323s] reading manifest file '../../build/simple_node_example/simple_node_example.egg-info/SOURCES.txt'
+[10.327s] writing manifest file '../../build/simple_node_example/simple_node_example.egg-info/SOURCES.txt'
+[10.328s] running build
+[10.328s] running build_py
+[10.328s] creating /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/simple_node_example/build
+[10.329s] creating /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/simple_node_example/build/lib
+[10.329s] creating /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/simple_node_example/build/lib/simple_node_example
+[10.329s] copying simple_node_example/simple_subscriber.py -> /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/simple_node_example/build/lib/simple_node_example
+[10.330s] copying simple_node_example/simple_publisher.py -> /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/simple_node_example/build/lib/simple_node_example
+[10.330s] copying simple_node_example/__init__.py -> /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/simple_node_example/build/lib/simple_node_example
+[10.330s] running install
+[10.332s] running install_lib
+[10.334s] creating /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/simple_node_example/lib/python3.10/site-packages/simple_node_example
+[10.335s] copying /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/simple_node_example/build/lib/simple_node_example/simple_subscriber.py -> /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/simple_node_example/lib/python3.10/site-packages/simple_node_example
+[10.335s] copying /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/simple_node_example/build/lib/simple_node_example/simple_publisher.py -> /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/simple_node_example/lib/python3.10/site-packages/simple_node_example
+[10.336s] copying /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/simple_node_example/build/lib/simple_node_example/__init__.py -> /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/simple_node_example/lib/python3.10/site-packages/simple_node_example
+[10.338s] byte-compiling /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/simple_node_example/lib/python3.10/site-packages/simple_node_example/simple_subscriber.py to simple_subscriber.cpython-310.pyc
+[10.339s] byte-compiling /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/simple_node_example/lib/python3.10/site-packages/simple_node_example/simple_publisher.py to simple_publisher.cpython-310.pyc
+[10.341s] byte-compiling /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/simple_node_example/lib/python3.10/site-packages/simple_node_example/__init__.py to __init__.cpython-310.pyc
+[10.342s] running install_data
+[10.342s] creating /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/simple_node_example/share/ament_index
+[10.343s] creating /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/simple_node_example/share/ament_index/resource_index
+[10.343s] creating /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/simple_node_example/share/ament_index/resource_index/packages
+[10.343s] copying resource/simple_node_example -> /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/simple_node_example/share/ament_index/resource_index/packages
+[10.344s] copying package.xml -> /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/simple_node_example/share/simple_node_example
+[10.344s] running install_egg_info
+[10.345s] Copying ../../build/simple_node_example/simple_node_example.egg-info to /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/simple_node_example/lib/python3.10/site-packages/simple_node_example-0.0.0-py3.10.egg-info
+[10.348s] running install_scripts
+[10.407s] Installing publisher script to /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/simple_node_example/lib/simple_node_example
+[10.408s] Installing subscriber script to /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/simple_node_example/lib/simple_node_example
+[10.409s] writing list of installed files to '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/simple_node_example/install.log'
+[10.524s] Invoked command in '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/src/simple_node_example' returned '0': PYTHONPATH=/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/simple_node_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/simple_node_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/simple_node_example build --build-base /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/simple_node_example/build install --record /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/simple_node_example/install.log --single-version-externally-managed install_data

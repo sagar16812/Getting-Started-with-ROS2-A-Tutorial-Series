@@ -1,0 +1,48 @@
+[7.904s] Invoking command in '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/src/rotate_turtle_action_client': PYTHONPATH=/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/rotate_turtle_action_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/rotate_turtle_action_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rotate_turtle_action_client build --build-base /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/rotate_turtle_action_client/build install --record /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/rotate_turtle_action_client/install.log --single-version-externally-managed install_data
+[9.227s] /home/sagar/.local/lib/python3.10/site-packages/setuptools_scm/_integration/setuptools.py:31: RuntimeWarning: 
+[9.228s] ERROR: setuptools==59.6.0 is used in combination with setuptools_scm>=8.x
+[9.228s] 
+[9.228s] Your build configuration is incomplete and previously worked by accident!
+[9.232s] setuptools_scm requires setuptools>=61
+[9.232s] 
+[9.232s] Suggested workaround if applicable:
+[9.233s]  - migrating from the deprecated setup_requires mechanism to pep517/518
+[9.233s]    and using a pyproject.toml to declare build dependencies
+[9.233s]    which are reliably pre-installed before running the build tools
+[9.234s] 
+[9.234s]   warnings.warn(
+[9.324s] running egg_info
+[9.324s] creating ../../build/rotate_turtle_action_client/rotate_turtle_action_client.egg-info
+[9.325s] writing ../../build/rotate_turtle_action_client/rotate_turtle_action_client.egg-info/PKG-INFO
+[9.325s] writing dependency_links to ../../build/rotate_turtle_action_client/rotate_turtle_action_client.egg-info/dependency_links.txt
+[9.329s] writing entry points to ../../build/rotate_turtle_action_client/rotate_turtle_action_client.egg-info/entry_points.txt
+[9.329s] writing requirements to ../../build/rotate_turtle_action_client/rotate_turtle_action_client.egg-info/requires.txt
+[9.329s] writing top-level names to ../../build/rotate_turtle_action_client/rotate_turtle_action_client.egg-info/top_level.txt
+[9.332s] writing manifest file '../../build/rotate_turtle_action_client/rotate_turtle_action_client.egg-info/SOURCES.txt'
+[9.751s] writing manifest file '../../build/rotate_turtle_action_client/rotate_turtle_action_client.egg-info/SOURCES.txt'
+[9.752s] running build
+[9.756s] running build_py
+[9.756s] creating /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/rotate_turtle_action_client/build
+[9.757s] creating /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/rotate_turtle_action_client/build/lib
+[9.757s] creating /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/rotate_turtle_action_client/build/lib/rotate_turtle_action_client
+[9.758s] copying rotate_turtle_action_client/rotate_turtle_client.py -> /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/rotate_turtle_action_client/build/lib/rotate_turtle_action_client
+[9.758s] copying rotate_turtle_action_client/__init__.py -> /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/rotate_turtle_action_client/build/lib/rotate_turtle_action_client
+[9.762s] running install
+[9.763s] running install_lib
+[9.763s] creating /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/rotate_turtle_action_client/lib/python3.10/site-packages/rotate_turtle_action_client
+[9.764s] copying /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/rotate_turtle_action_client/build/lib/rotate_turtle_action_client/rotate_turtle_client.py -> /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/rotate_turtle_action_client/lib/python3.10/site-packages/rotate_turtle_action_client
+[9.764s] copying /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/rotate_turtle_action_client/build/lib/rotate_turtle_action_client/__init__.py -> /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/rotate_turtle_action_client/lib/python3.10/site-packages/rotate_turtle_action_client
+[9.768s] byte-compiling /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/rotate_turtle_action_client/lib/python3.10/site-packages/rotate_turtle_action_client/rotate_turtle_client.py to rotate_turtle_client.cpython-310.pyc
+[9.774s] byte-compiling /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/rotate_turtle_action_client/lib/python3.10/site-packages/rotate_turtle_action_client/__init__.py to __init__.cpython-310.pyc
+[9.774s] running install_data
+[9.774s] creating /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/rotate_turtle_action_client/share/ament_index
+[9.775s] creating /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/rotate_turtle_action_client/share/ament_index/resource_index
+[9.775s] creating /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/rotate_turtle_action_client/share/ament_index/resource_index/packages
+[9.776s] copying resource/rotate_turtle_action_client -> /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/rotate_turtle_action_client/share/ament_index/resource_index/packages
+[9.776s] copying package.xml -> /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/rotate_turtle_action_client/share/rotate_turtle_action_client
+[9.777s] running install_egg_info
+[9.782s] Copying ../../build/rotate_turtle_action_client/rotate_turtle_action_client.egg-info to /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/rotate_turtle_action_client/lib/python3.10/site-packages/rotate_turtle_action_client-0.0.0-py3.10.egg-info
+[9.783s] running install_scripts
+[9.862s] Installing rotate_turtle_action_client script to /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/rotate_turtle_action_client/lib/rotate_turtle_action_client
+[9.864s] writing list of installed files to '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/rotate_turtle_action_client/install.log'
+[10.085s] Invoked command in '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/src/rotate_turtle_action_client' returned '0': PYTHONPATH=/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/rotate_turtle_action_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/rotate_turtle_action_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rotate_turtle_action_client build --build-base /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/rotate_turtle_action_client/build install --record /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/rotate_turtle_action_client/install.log --single-version-externally-managed install_data

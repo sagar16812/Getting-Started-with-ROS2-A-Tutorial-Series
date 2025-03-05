@@ -1,0 +1,4 @@
+[console_scripts]
+publisher = simple_node_example.simple_publisher:main
+subscriber = simple_node_example.simple_subscriber:main
+

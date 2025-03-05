@@ -1,4 +1,0 @@
-[console_scripts]
-turtle_action_client = turtlesim_action_example.turtle_action_client:main
-turtle_action_server = turtlesim_action_example.turtle_action_server:main
-

@@ -1,21 +1,19 @@
 # Getting Started with ROS2
 
-Welcome to the official repository for the **[Getting Started with ROS2](https://medium.com/@sagarcadet/list/getting-started-with-ros2-adb24ab6d8dd)** article series on Medium. This repository contains code examples, tutorials, and resources to help you learn and master ROS2.
+Welcome to the official repository for the **[Getting Started with ROS2](https://medium.com/@sagarcadet/list/getting-started-with-ros2-adb24ab6d8dd)** article series on Medium. This repository contains multiple guides and example packages for working with ROS 2.
 
-## Repository Structure
+## Guides and Documentation
+- **installation_guide/**: Step-by-step instructions for installing ROS 2 on a desktop, laptop, or Raspberry Pi, along with environment setup guidelines.
+- **ros2_multi-machine_communication_guide/**: A comprehensive guide on configuring ROS 2 for multi-machine communication.
+- **raspi_headless_camera_calibration_guide/**: Instructions for performing camera calibration on a Raspberry Pi without a graphical user interface.
+- **ros2_bag_recording_and_playback_guide/**: Guidelines on recording and replaying ROS 2 bag files for data analysis and debugging.
+- **Rviz2_guide/**: A guide to using Rviz2 for visualizing ROS 2 data from active nodes or recorded rosbag files.
 
-- **installation_guide/**: Instructions on how to install ROS2 on your Desktop/Laptop or a Raspberry Pi and set up your environment.
-- **workspace/**: A sample ROS2 workspace with basic package structures.
-- **packages/**:
-  - **publisher_package/**: Simple publisher nodes to demonstrate how to publish messages.
-  - **subscriber_package/**: Simple subscriber nodes to demonstrate how to subscribe to messages.
-  - **service_client_package/**: Examples of creating services and clients.
-  - **action_server_client_package/**: Examples of creating action servers and clients.
-- **launch_files/**: Example launch files to run multiple nodes.
-- **custom_messages/**: Examples of creating custom message and service types.
-- **parameter_server/**: Demonstrations on how to use the parameter server.
-- **visualization_tools/**: Examples using `rviz` and `rqt`.
-- **advanced_examples/**: More complex projects like integrating sensors or simulating a robot in Gazebo.
+## List of example Packages:
+- **simple_node_example**: A basic example demonstrating a simple ROS 2 node.
+- **pub_sub_tutorial**: Illustrates the implementation of publisher and subscriber nodes for ROS 2 topics.
+- **battery_status**: Demonstrates client-server node communication in ROS 2.
+- **rotate_turtle_action_client**: Implements an action client node to control the movement of the Turtlesim TurtleBot.
 
 ## Raspberry Pi Image with Ubuntu Server 22.04 and ROS2 Humble Base + Perception
 

@@ -1,0 +1,52 @@
+[7.470s] Invoking command in '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/src/battery_status': PYTHONPATH=/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/battery_status/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/battery_status/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/battery_status build --build-base /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/battery_status/build install --record /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/battery_status/install.log --single-version-externally-managed install_data
+[9.165s] /home/sagar/.local/lib/python3.10/site-packages/setuptools_scm/_integration/setuptools.py:31: RuntimeWarning: 
+[9.165s] ERROR: setuptools==59.6.0 is used in combination with setuptools_scm>=8.x
+[9.165s] 
+[9.166s] Your build configuration is incomplete and previously worked by accident!
+[9.166s] setuptools_scm requires setuptools>=61
+[9.166s] 
+[9.167s] Suggested workaround if applicable:
+[9.167s]  - migrating from the deprecated setup_requires mechanism to pep517/518
+[9.170s]    and using a pyproject.toml to declare build dependencies
+[9.171s]    which are reliably pre-installed before running the build tools
+[9.171s] 
+[9.171s]   warnings.warn(
+[9.265s] running egg_info
+[9.265s] creating ../../build/battery_status/battery_status.egg-info
+[9.266s] writing ../../build/battery_status/battery_status.egg-info/PKG-INFO
+[9.272s] writing dependency_links to ../../build/battery_status/battery_status.egg-info/dependency_links.txt
+[9.273s] writing entry points to ../../build/battery_status/battery_status.egg-info/entry_points.txt
+[9.280s] writing requirements to ../../build/battery_status/battery_status.egg-info/requires.txt
+[9.284s] writing top-level names to ../../build/battery_status/battery_status.egg-info/top_level.txt
+[9.284s] writing manifest file '../../build/battery_status/battery_status.egg-info/SOURCES.txt'
+[9.765s] writing manifest file '../../build/battery_status/battery_status.egg-info/SOURCES.txt'
+[9.766s] running build
+[9.767s] running build_py
+[9.770s] creating /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/battery_status/build
+[9.771s] creating /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/battery_status/build/lib
+[9.771s] creating /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/battery_status/build/lib/battery_status
+[9.773s] copying battery_status/battery_service.py -> /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/battery_status/build/lib/battery_status
+[9.775s] copying battery_status/battery_client.py -> /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/battery_status/build/lib/battery_status
+[9.780s] copying battery_status/__init__.py -> /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/battery_status/build/lib/battery_status
+[9.785s] running install
+[9.789s] running install_lib
+[9.794s] creating /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/battery_status/lib/python3.10/site-packages/battery_status
+[9.797s] copying /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/battery_status/build/lib/battery_status/battery_service.py -> /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/battery_status/lib/python3.10/site-packages/battery_status
+[9.797s] copying /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/battery_status/build/lib/battery_status/battery_client.py -> /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/battery_status/lib/python3.10/site-packages/battery_status
+[9.803s] copying /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/battery_status/build/lib/battery_status/__init__.py -> /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/battery_status/lib/python3.10/site-packages/battery_status
+[9.813s] byte-compiling /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/battery_status/lib/python3.10/site-packages/battery_status/battery_service.py to battery_service.cpython-310.pyc
+[9.814s] byte-compiling /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/battery_status/lib/python3.10/site-packages/battery_status/battery_client.py to battery_client.cpython-310.pyc
+[9.822s] byte-compiling /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/battery_status/lib/python3.10/site-packages/battery_status/__init__.py to __init__.cpython-310.pyc
+[9.823s] running install_data
+[9.827s] creating /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/battery_status/share/ament_index
+[9.827s] creating /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/battery_status/share/ament_index/resource_index
+[9.827s] creating /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/battery_status/share/ament_index/resource_index/packages
+[9.828s] copying resource/battery_status -> /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/battery_status/share/ament_index/resource_index/packages
+[9.828s] copying package.xml -> /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/battery_status/share/battery_status
+[9.829s] running install_egg_info
+[9.832s] Copying ../../build/battery_status/battery_status.egg-info to /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/battery_status/lib/python3.10/site-packages/battery_status-0.0.0-py3.10.egg-info
+[9.833s] running install_scripts
+[9.935s] Installing battery_client script to /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/battery_status/lib/battery_status
+[9.937s] Installing battery_service script to /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/battery_status/lib/battery_status
+[9.943s] writing list of installed files to '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/battery_status/install.log'
+[10.160s] Invoked command in '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/src/battery_status' returned '0': PYTHONPATH=/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/battery_status/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/battery_status/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/battery_status build --build-base /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/battery_status/build install --record /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/battery_status/install.log --single-version-externally-managed install_data

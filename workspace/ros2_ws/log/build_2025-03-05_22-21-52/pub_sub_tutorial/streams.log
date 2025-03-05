@@ -1,0 +1,52 @@
+[7.583s] Invoking command in '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/src/pub_sub_tutorial': PYTHONPATH=/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/pub_sub_tutorial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/pub_sub_tutorial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pub_sub_tutorial build --build-base /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/pub_sub_tutorial/build install --record /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/pub_sub_tutorial/install.log --single-version-externally-managed install_data
+[9.197s] /home/sagar/.local/lib/python3.10/site-packages/setuptools_scm/_integration/setuptools.py:31: RuntimeWarning: 
+[9.197s] ERROR: setuptools==59.6.0 is used in combination with setuptools_scm>=8.x
+[9.198s] 
+[9.198s] Your build configuration is incomplete and previously worked by accident!
+[9.198s] setuptools_scm requires setuptools>=61
+[9.199s] 
+[9.199s] Suggested workaround if applicable:
+[9.201s]  - migrating from the deprecated setup_requires mechanism to pep517/518
+[9.202s]    and using a pyproject.toml to declare build dependencies
+[9.202s]    which are reliably pre-installed before running the build tools
+[9.202s] 
+[9.203s]   warnings.warn(
+[9.300s] running egg_info
+[9.301s] creating ../../build/pub_sub_tutorial/pub_sub_tutorial.egg-info
+[9.301s] writing ../../build/pub_sub_tutorial/pub_sub_tutorial.egg-info/PKG-INFO
+[9.304s] writing dependency_links to ../../build/pub_sub_tutorial/pub_sub_tutorial.egg-info/dependency_links.txt
+[9.305s] writing entry points to ../../build/pub_sub_tutorial/pub_sub_tutorial.egg-info/entry_points.txt
+[9.305s] writing requirements to ../../build/pub_sub_tutorial/pub_sub_tutorial.egg-info/requires.txt
+[9.305s] writing top-level names to ../../build/pub_sub_tutorial/pub_sub_tutorial.egg-info/top_level.txt
+[9.310s] writing manifest file '../../build/pub_sub_tutorial/pub_sub_tutorial.egg-info/SOURCES.txt'
+[9.731s] writing manifest file '../../build/pub_sub_tutorial/pub_sub_tutorial.egg-info/SOURCES.txt'
+[9.732s] running build
+[9.734s] running build_py
+[9.735s] creating /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/pub_sub_tutorial/build
+[9.735s] creating /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/pub_sub_tutorial/build/lib
+[9.736s] creating /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/pub_sub_tutorial/build/lib/pub_sub_tutorial
+[9.736s] copying pub_sub_tutorial/led_publisher.py -> /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/pub_sub_tutorial/build/lib/pub_sub_tutorial
+[9.736s] copying pub_sub_tutorial/led_subscriber.py -> /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/pub_sub_tutorial/build/lib/pub_sub_tutorial
+[9.737s] copying pub_sub_tutorial/__init__.py -> /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/pub_sub_tutorial/build/lib/pub_sub_tutorial
+[9.740s] running install
+[9.742s] running install_lib
+[9.746s] creating /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/pub_sub_tutorial/lib/python3.10/site-packages/pub_sub_tutorial
+[9.746s] copying /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/pub_sub_tutorial/build/lib/pub_sub_tutorial/led_publisher.py -> /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/pub_sub_tutorial/lib/python3.10/site-packages/pub_sub_tutorial
+[9.747s] copying /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/pub_sub_tutorial/build/lib/pub_sub_tutorial/led_subscriber.py -> /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/pub_sub_tutorial/lib/python3.10/site-packages/pub_sub_tutorial
+[9.747s] copying /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/pub_sub_tutorial/build/lib/pub_sub_tutorial/__init__.py -> /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/pub_sub_tutorial/lib/python3.10/site-packages/pub_sub_tutorial
+[9.749s] byte-compiling /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/pub_sub_tutorial/lib/python3.10/site-packages/pub_sub_tutorial/led_publisher.py to led_publisher.cpython-310.pyc
+[9.752s] byte-compiling /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/pub_sub_tutorial/lib/python3.10/site-packages/pub_sub_tutorial/led_subscriber.py to led_subscriber.cpython-310.pyc
+[9.753s] byte-compiling /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/pub_sub_tutorial/lib/python3.10/site-packages/pub_sub_tutorial/__init__.py to __init__.cpython-310.pyc
+[9.757s] running install_data
+[9.757s] creating /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/pub_sub_tutorial/share/ament_index
+[9.758s] creating /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/pub_sub_tutorial/share/ament_index/resource_index
+[9.758s] creating /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/pub_sub_tutorial/share/ament_index/resource_index/packages
+[9.758s] copying resource/pub_sub_tutorial -> /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/pub_sub_tutorial/share/ament_index/resource_index/packages
+[9.762s] copying package.xml -> /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/pub_sub_tutorial/share/pub_sub_tutorial
+[9.762s] running install_egg_info
+[9.763s] Copying ../../build/pub_sub_tutorial/pub_sub_tutorial.egg-info to /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/pub_sub_tutorial/lib/python3.10/site-packages/pub_sub_tutorial-0.0.0-py3.10.egg-info
+[9.767s] running install_scripts
+[9.845s] Installing led_publisher script to /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/pub_sub_tutorial/lib/pub_sub_tutorial
+[9.847s] Installing led_subscriber script to /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/pub_sub_tutorial/lib/pub_sub_tutorial
+[9.850s] writing list of installed files to '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/pub_sub_tutorial/install.log'
+[10.031s] Invoked command in '/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/src/pub_sub_tutorial' returned '0': PYTHONPATH=/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/pub_sub_tutorial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/install/pub_sub_tutorial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pub_sub_tutorial build --build-base /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/pub_sub_tutorial/build install --record /home/sagar/Developer/Robotics/Getting-Started-with-ROS2-A-Tutorial-Series/workspace/ros2_ws/build/pub_sub_tutorial/install.log --single-version-externally-managed install_data
