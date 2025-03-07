@@ -1,7 +1,5 @@
 # Getting Started with ROS2
 
----
-
 ## Index
 
 1. **[Introduction](#introduction)** : Overview of the repository and Medium article series  
