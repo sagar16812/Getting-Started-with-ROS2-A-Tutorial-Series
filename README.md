@@ -45,6 +45,8 @@ You can also check out the pre-configured Raspberry Pi image with **[Ubuntu Serv
 | 11. | [Implementing Custom Actions in ROS2](https://medium.com/spinor/getting-started-with-ros2-implementing-custom-actions-in-ros2-438ac1fb929f) | [rotate_turtle_action_client](workspace/ros2_ws/src/rotate_turtle_action_client/) |
 | 12. | [A Step-by-Step Guide to Setting Up a Camera for ROS2 on Raspberry Pi and Desktop](https://medium.com/spinor/getting-started-with-ros2-a-step-by-step-guide-to-setting-up-a-camera-for-ros2-on-raspberry-pi-and-6b8fe8cbb9df) | <center>---</center> |
 | 13. | [Mastering Data Recording and Playback with ROS2 Bag](https://medium.com/spinor/getting-started-with-ros2-mastering-data-recording-and-playback-with-ros2-bag-68cdc1de6725) | <center>---</center> |
+| 14. | [Visualising ros2 bag using RViz2](https://medium.com/spinor/getting-started-with-ros2-visualising-ros2-bag-using-rviz2-1b59f9dd7065) | <center>---</center> |
+| 15. | [How to Convert a ROS1 Bag to a ROS2 Bag](https://medium.com/spinor/getting-started-with-ros2-how-to-convert-a-ros1-bag-to-a-ros2-bag-c9af3e0a4077) | <center>---</center> |
 
 ---
 
@@ -55,6 +57,7 @@ You can also check out the pre-configured Raspberry Pi image with **[Ubuntu Serv
 - **raspi_headless_camera_calibration_guide/**: Instructions for performing camera calibration on a Raspberry Pi without a graphical user interface.
 - **ros2_bag_recording_and_playback_guide/**: Guidelines on recording and replaying ROS 2 bag files for data analysis and debugging.
 - **Rviz2_guide/**: A guide to using Rviz2 for visualizing ROS 2 data from active nodes or recorded rosbag files.
+- **convert_ros1_bag_to_ros2_format_guide/**: A guide on how to convert the ROS1 Bag to ROS2 format.
 
 ---
 
